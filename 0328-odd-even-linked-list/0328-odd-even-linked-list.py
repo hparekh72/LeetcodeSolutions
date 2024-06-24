@@ -52,6 +52,8 @@ class Solution:
         even = head.next
         evenHead = head.next
 
+        # Note: If Even has not reached the end, then odd will also not reach. 
+
         while even and even.next:
             odd.next = odd.next.next
             even.next = even.next.next
