@@ -6,35 +6,63 @@
 class Solution:
     def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
-        if head == None or head.next == None or head.next.next == None:
+        # Brute Force:
+
+        # TC: O(2N)
+        # SC: O(N)
+
+        # if head == None or head.next == None or head.next.next == None:
+        #     return head
+
+        # dummyNode = ListNode()
+        # curr = dummyNode
+        
+        # temp = head
+        # while temp != None:
+        #     node = ListNode(temp.val)
+        #     curr.next = node
+        #     curr = curr.next
+
+        #     if temp.next:
+        #         temp = temp.next.next
+        #     else:
+        #         temp = temp.next
+
+        # temp = head.next
+        # while temp != None:
+        #     node = ListNode(temp.val)
+        #     curr.next = node
+        #     curr = curr.next
+
+        #     if temp.next:
+        #         temp = temp.next.next
+        #     else:
+        #         temp = temp.next
+
+        # return dummyNode.next
+
+        # Optimal:
+        # TC: O(N)
+        # SC: O(1)
+
+        if head == None or head.next == None:
             return head
 
-        dummyNode = ListNode()
-        curr = dummyNode
-        
-        temp = head
-        while temp != None:
-            node = ListNode(temp.val)
-            curr.next = node
-            curr = curr.next
+        odd = head
+        even = head.next
+        evenHead = head.next
 
-            if temp.next:
-                temp = temp.next.next
-            else:
-                temp = temp.next
+        while even and even.next:
+            odd.next = odd.next.next
+            even.next = even.next.next
 
-        temp = head.next
-        while temp != None:
-            node = ListNode(temp.val)
-            curr.next = node
-            curr = curr.next
+            odd = odd.next
+            even = even.next
 
-            if temp.next:
-                temp = temp.next.next
-            else:
-                temp = temp.next
+        odd.next = evenHead
 
-        return dummyNode.next
+        return head
+
 
         
 
