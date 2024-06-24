@@ -47,7 +47,6 @@ class Solution:
 
         if fast == None:
             newHead = head.next
-            del head
             return newHead
 
         slow = head
@@ -55,9 +54,7 @@ class Solution:
             slow = slow.next
             fast = fast.next
 
-        deleteNode = slow.next
         slow.next = slow.next.next
-        del deleteNode
         return head
 
         
