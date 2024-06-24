@@ -14,9 +14,13 @@ class Solution:
 
         temp = head
         length = 0
-        while temp != None:
+        while temp != None: # Calculate the length
             length += 1
             temp = temp.next
+
+        if n == length:
+            head = head.next
+            return head
 
         posToDelete = length - n
 
@@ -24,10 +28,7 @@ class Solution:
         prev = None
         while temp != None:
             if posToDelete == 0:
-                if temp == head:
-                    head = head.next
-                else:
-                    prev.next = temp.next
+                prev.next = temp.next
                 del temp
                 break
             posToDelete -= 1
