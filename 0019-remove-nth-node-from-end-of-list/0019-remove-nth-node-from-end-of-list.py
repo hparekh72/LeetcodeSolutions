@@ -9,30 +9,55 @@ class Solution:
         #TC: O(2N)
         #SC: O(1)
 
-        if head.next == None:
-            return 
+        # if head.next == None:
+        #     return 
 
-        temp = head
-        length = 0
-        while temp != None: # Calculate the length
-            length += 1
-            temp = temp.next
+        # temp = head
+        # length = 0
+        # while temp != None: # Calculate the length
+        #     length += 1
+        #     temp = temp.next
 
-        if n == length:
-            head = head.next
-            return head
+        # if n == length:
+        #     head = head.next
+        #     return head
 
-        posToDelete = length - n
+        # posToDelete = length - n
 
-        temp = head
-        prev = None
-        while temp != None:
-            if posToDelete == 0:
-                prev.next = temp.next
-                del temp
-                break
-            posToDelete -= 1
-            prev = temp
-            temp = temp.next
+        # temp = head
+        # prev = None
+        # while temp != None:
+        #     if posToDelete == 0:
+        #         prev.next = temp.next
+        #         del temp
+        #         break
+        #     posToDelete -= 1
+        #     prev = temp
+        #     temp = temp.next
 
+        # return head
+
+        # Optimal Approach:
+        # TC: O(N)
+        # SC: O(1)
+
+        fast = head
+        for i in range(n):
+            fast = fast.next
+
+        if fast == None:
+            newHead = head.next
+            del head
+            return newHead
+
+        slow = head
+        while fast.next != None:
+            slow = slow.next
+            fast = fast.next
+
+        deleteNode = slow.next
+        slow.next = slow.next.next
+        del deleteNode
         return head
+
+        
