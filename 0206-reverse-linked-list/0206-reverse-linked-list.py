@@ -22,19 +22,33 @@ class Solution:
 
         # return head
 
-        # Optimal
+        # Optimal: Iterative
         # TC: O(N)
         # SC: O(1)
 
-        temp = head
-        prev = None
+        # temp = head
+        # prev = None
 
-        while temp != None:
-            next = temp.next
-            temp.next = prev
-            prev = temp
-            temp = next
+        # while temp != None:
+        #     nextNode = temp.next
+        #     temp.next = prev
+        #     prev = temp
+        #     temp = nextNode
         
-        return prev
+        # return prev
+
+        # Optimal: Recursive
+        # TC: O(N)
+        # SC: O(N) (Recursive Stack Space)
+
+        if head == None or head.next == None:
+            return head
+
+        newHead = self.reverseList(head.next)
+        nextNode = head.next
+        nextNode.next = head
+        head.next = None
+
+        return newHead
 
         
