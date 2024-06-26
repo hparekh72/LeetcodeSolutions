@@ -7,7 +7,7 @@ class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
 
         # Brute Force
-        # TC: O(2N)
+        # TC: O(N) + O(N/2)
 
         # temp = head
         # length = 0
@@ -26,6 +26,10 @@ class Solution:
         #     temp = temp.next
         
         # return temp
+
+        # Optimal: Tortoise and Hare approach
+        # TC: O(N/2)
+        # SC: O(1)
 
         slow = head
         fast = head
