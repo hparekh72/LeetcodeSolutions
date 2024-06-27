@@ -11,7 +11,7 @@ class Solution:
         # TC: O(N)
         # SC: O(1)
 
-        # if head == None or headB == None:
+        # if headA == None or headB == None:
         #     return None
         
         # temp1 = headA
@@ -34,42 +34,73 @@ class Solution:
 
         # return None  # If no intersection is found
 
-        # Approach 2:
+        # Approach 2: Better
         # TC: O(2(N + M))
         # SC: O(1)
 
+        # temp1, temp2 = headA, headB
+        # length1, length2 = 0, 0
+
+        # while temp1 != None:
+        #     length1 += 1
+        #     temp1 = temp1.next
+
+        # while temp2 != None:
+        #     length2 += 1
+        #     temp2 = temp2.next
+
+        # temp1, temp2 = headA, headB
+
+        # if length1 > length2:
+        #     diff = length1 - length2
+        #     return self.collisionNode(temp1, temp2, diff)
+        # else:
+        #     diff = length2 - length1
+        #     return self.collisionNode(temp2, temp1, diff)
+
+        # Approach 3: Optimal
+        # TC: O(2(N + M))
+        # SC: O(1)
+
+        if headA == None or headB == None:
+            return None
+
         temp1, temp2 = headA, headB
-        length1, length2 = 0, 0
 
-        while temp1 != None:
-            length1 += 1
+        while temp1 != temp2:
+
             temp1 = temp1.next
-
-        while temp2 != None:
-            length2 += 1
             temp2 = temp2.next
 
-        temp1, temp2 = headA, headB
-
-        if length1 > length2:
-            diff = length1 - length2
-            return self.collisionNode(temp1, temp2, diff)
-        else:
-            diff = length2 - length1
-            return self.collisionNode(temp2, temp1, diff)
-
-    def collisionNode(self, temp1, temp2, diff):
-        while diff > 0:
-            temp1 = temp1.next
-            diff -= 1
-
-        while temp1 != None:
             if temp1 == temp2:
                 return temp1
-            temp1 = temp1.next
-            temp2 = temp2.next
 
-        return None
+            if temp1 == None:
+                temp1 = headB
+            
+            if temp2 == None:
+                temp2 = headA
+        
+        return temp1
+
+
+
+        
+
+
+
+    # def collisionNode(self, temp1, temp2, diff):
+    #     while diff > 0:
+    #         temp1 = temp1.next
+    #         diff -= 1
+
+    #     while temp1 != None:
+    #         if temp1 == temp2:
+    #             return temp1
+    #         temp1 = temp1.next
+    #         temp2 = temp2.next
+
+    #     return None
 
         
 
