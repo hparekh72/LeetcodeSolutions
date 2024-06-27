@@ -10,14 +10,34 @@ class Solution:
         # TC: O(N)
         # SC: O(N)
 
-        temp = head
-        hashSet = set()
-        while temp != None:
-            if temp in hashSet:
-                return True
-            hashSet.add(temp)
-            temp = temp.next
+        # temp = head
+        # hashSet = set()
+        # while temp != None:
+        #     if temp in hashSet:
+        #         return True
+        #     hashSet.add(temp)
+        #     temp = temp.next
 
+        # return False
+
+        # Optimal: Slow and Fast pointer
+        # TC: O(N)
+        # SC: O(1)
+
+        slow = head
+        fast = head
+
+        while fast != None and fast.next != None:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
+                return True
+        
         return False
+
+
+
+
 
         
