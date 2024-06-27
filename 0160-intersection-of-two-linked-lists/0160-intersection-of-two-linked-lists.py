@@ -53,22 +53,24 @@ class Solution:
 
         if length1 > length2:
             diff = length1 - length2
-            while diff > 0:
-                temp1 = temp1.next
-                diff -= 1
-
-        elif length2 > length1:
+            return self.collisionNode(temp1, temp2, diff)
+        else:
             diff = length2 - length1
-            while diff > 0:
-                temp2 = temp2.next
-                diff -= 1
+            return self.collisionNode(temp2, temp1, diff)
+
+    def collisionNode(self, temp1, temp2, diff):
+        while diff > 0:
+            temp1 = temp1.next
+            diff -= 1
 
         while temp1 != None:
             if temp1 == temp2:
                 return temp1
             temp1 = temp1.next
             temp2 = temp2.next
-        
+
         return None
+
+        
 
 
