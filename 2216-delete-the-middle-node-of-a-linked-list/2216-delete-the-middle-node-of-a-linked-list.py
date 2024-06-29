@@ -53,7 +53,6 @@ class Solution:
             fast = fast.next.next
 
         prev.next = slow.next
-        del slow
         return head
         
 
