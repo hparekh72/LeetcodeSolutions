@@ -32,6 +32,8 @@ class Solution:
         # Length of the loop = d + l1
 
         # Optimal: Slow and Fast Pointer
+        # TC: O(N)
+        # SC: O(1)
 
         if head == None or head.next == None:
             return None
