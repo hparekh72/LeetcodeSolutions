@@ -17,22 +17,32 @@ class Solution:
 
         length = 1
         tail = head
-        while tail.next != None:
+        while tail.next != None:  # Find length and tail
             length += 1
             tail = tail.next
-        k = k % length
 
+        
+        k = k % length 
+
+        if k == 0:
+            return head 
+
+        tail.next = head # Connecting the end of the list with the head node
+
+        newLastNode = self.findNthNode(head, length - k)
+
+        head = newLastNode.next
+        newLastNode.next = None
+        
+        return head
+
+    def findNthNode(self, head, k):
         temp = head
-        pos = 0
-        while pos < (length - k - 1):
+        count = 1
+        while temp != None:
+            if count == k:
+                return temp
+            count += 1
             temp = temp.next
-            pos += 1
+        return temp
 
-        
-        tail.next = head
-        newHead = temp.next
-        temp.next = None
-
-        return newHead
-
-        
