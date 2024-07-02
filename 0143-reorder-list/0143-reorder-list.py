@@ -23,19 +23,24 @@ class Solution:
         second = middle.next
         middle.next = None    # Seperated the list into two
 
-        secondHead = self.reverse(second) # Reverse the second half
-
+        # Reverse the second half of the list 
+        secondHead = self.reverse(second)
+        
+        # Merge the two halves
         temp1 = head
         temp2 = secondHead
         nextNode1, nextNode2 = None, None
 
         while temp2 != None:
+            # Save next pointers
             nextNode1 = temp1.next
             nextNode2 = temp2.next
 
+            # Reorder nodes
             temp1.next = temp2
             temp2.next = nextNode1
 
+            # Move pointers forward
             temp1 = nextNode1
             temp2 = nextNode2
 
