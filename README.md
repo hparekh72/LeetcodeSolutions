@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0021-merge-two-sorted-lists) |
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0203-remove-linked-list-elements) |
@@ -21,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0138-copy-list-with-random-pointer) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 ## Recursion
 |  |
