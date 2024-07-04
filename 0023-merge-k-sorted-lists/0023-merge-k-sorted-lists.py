@@ -32,15 +32,13 @@ class Solution:
 
         # return dummyNode.next
 
+        # ---------------------------- xxxxxxxxxxxxxxxxxxx --------------------------------------
+
         # Optimal: Using Priority Queue
         # TC: O(k) + O(n*k)
         # SC: O(k)
 
         heap = []
-
-        # for i in range(len(lists)):
-        #     head = lists[i]
-        #     heapq.heappush(heap, (head.val, i, head))
 
         for index, head in enumerate(lists):
             if head:                  # To handle Edge Case: [[]]
