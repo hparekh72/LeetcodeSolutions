@@ -35,24 +35,24 @@ class Solution:
         # ---------------------------- xxxxxxxxxxxxxxxxxxx --------------------------------------
 
         # Optimal: Using Priority Queue
-        # TC: O(k) + O(n*k)
+        # TC: O(klogk) + O(n*k*logk)
         # SC: O(k)
 
-        heap = []
+        pq = []
 
         for index, head in enumerate(lists):
             if head:                  # To handle Edge Case: [[]]
-                heapq.heappush(heap, (head.val, index, head))
+                heapq.heappush(pq, (head.val, index, head)) # TC: O(logk)
 
 
         dummyNode = ListNode() 
         temp = dummyNode
-        while heap:
-            val, index, node = heapq.heappop(heap)
+        while pq:
+            val, index, node = heapq.heappop(pq)
             temp.next = node
             nextNode = node.next
             if nextNode:
-                heapq.heappush(heap, (nextNode.val, index, nextNode))
+                heapq.heappush(pq, (nextNode.val, index, nextNode)) # TC: O(logk)
 
             temp = temp.next
 
