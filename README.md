@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0203-remove-linked-list-elements) |
+| [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Two Pointers
 |  |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
+| [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Binary Search
 |  |
 | ------- |
@@ -51,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
+| [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -69,4 +72,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
+## Design
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 <!---LeetCode Topics End-->
