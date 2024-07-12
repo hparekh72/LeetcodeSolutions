@@ -6,50 +6,46 @@
 #         self.right = right
 class Solution:
     def verticalTraversal(self, root: Optional[TreeNode]) -> List[List[int]]:
-
-        self.verticalMap = defaultdict(list)
-        
+        # Create a defaultdict with default value as an empty list.
+        self.vertical_map = collections.defaultdict(list)
+        # Perform a level order traversal of the binary tree.
         self.levelOrder(root)
 
-        res = []
-        sorted_keys = sorted(self.verticalMap)
-        for key in sorted_keys:
-            res.append(self.verticalMap[key])
+        # Construct the result by sorting keys and retrieving values.
+        result = []
+        print(self.vertical_map)
+        sorted_keys = sorted(self.vertical_map)
 
-        return res
+        for key in sorted_keys:
+            result.append(self.vertical_map[key])
+
+        return result
 
 
     def levelOrder(self, root):
-        if root == None:
-            return
-
+        # Initialize a deque with the root and its horizontal position (0).
         q = collections.deque([(root, 0)])
 
+        # Iterate while there are nodes in the queue.
         while q:
-            current_level_map = defaultdict(list)
-            for _ in range(len(q)):
-                node, pos = q.popleft()
-                if node.left:
-                    q.append((node.left, pos - 1))
+            # Get the number of nodes at the current level.
+            levelSize = len(q)
+            # Create a temporary defaultdict for the current level.
+            temp_map = collections.defaultdict(list)
 
-                if node.right:
-                    q.append((node.right, pos + 1))
-
-                current_level_map[pos].append(node.val)
-
-            for pos in current_level_map:
-                self.verticalMap[pos].extend(sorted(current_level_map[pos])) 
-                # Sorted since there may be multiple nodes in the same row and same column. In such a case, sort these nodes by their values.
-
-            
+            # Process nodes at the current level.
+            for _ in range(levelSize):
+                # Dequeue a node and its horizontal position.
+                node, x = q.popleft()
+                # Add the node's value to the temporary map at its position.
+                temp_map[x].append(node.val)
 
 
+                # Enqueue left and right children if they exist.
+                if node.left: q.append((node.left, x - 1))
+                if node.right: q.append((node.right, x + 1))
 
-        
-
-
-
-        
-
-
+            # Extend values from the temporary map to the vertical map.
+            for k in temp_map:
+                self.vertical_map[k].extend(sorted(temp_map[k]))
         
