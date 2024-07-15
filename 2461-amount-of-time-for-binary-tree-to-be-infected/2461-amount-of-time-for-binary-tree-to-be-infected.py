@@ -9,59 +9,47 @@ class Solution:
     # SC: O(N) + O(N) + O(N) = O(N)
     def amountOfTime(self, root: Optional[TreeNode], start: int) -> int:
         self.parentsMap = {}
-        self.markParents(root, self.parentsMap)
-        startNode = [0]
-        self.getStartNode(root, start, startNode) # Get start node address
+        startNode = [root]
+        self.markParents(root, self.parentsMap, start, startNode) # Mark parent nodes and gets start node address
 
         # BFS traversal on all the nodes from the start node
 
         queue = [startNode[0]]
         
         visited = {startNode[0]: True}
-        curr_level = 0 # minutes
-
-        c = 4
-        q = []
+        time = 0 # current level / minutes
 
         while queue:
             
+            flag = False
             level_size = len(queue)
             for _ in range(level_size):
                 node = queue.pop(0)
 
                 if node.left and node.left not in visited:
+                    flag = True
                     queue.append(node.left)
                     visited[node.left] = True
                 
                 if node.right and node.right not in visited:
+                    flag = True
                     queue.append(node.right)
                     visited[node.right] = True
 
                 parentNode = self.parentsMap[node]
                 if parentNode and parentNode not in visited:
+                    flag = True
                     queue.append(parentNode)
                     visited[parentNode] = True
 
-            if len(queue) > 0:
-                curr_level += 1 
+            if flag:
+                time += 1 
 
-        return curr_level
-
-    def getStartNode(self, root, start, startNode): # Preorder Traversal
-
-        if root == None:
-            return 
-        
-        if root.val == start:
-            startNode[0] = root
-            return 
-
-        self.getStartNode(root.left, start, startNode)
-        self.getStartNode(root.right, start, startNode)
-            
+        return time
 
 
-    def markParents(self, root, parentsMap): # Level Order Traversal (BFS Traversal)
+    # Mark parent nodes and gets start node address
+    def markParents(self, root, parentsMap, start,startNode): # Level Order Traversal (BFS Traversal)
         parentsMap[root] = None # Root has no parent
         queue = [root]
 
@@ -70,6 +58,10 @@ class Solution:
             level_size = len(queue)
             for _ in range(level_size):
                 node = queue.pop(0)
+
+                if node.val == start:
+                    startNode[0] = node
+
                 if node.left:
                     queue.append(node.left)
                     parentsMap[node.left] = node
