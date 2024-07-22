@@ -12,21 +12,37 @@ class Solution:
         # TC: O(N)
         # SC: O(N)
 
-        # Optimal:
+        # Optimal: Recursive
         # Approach: When we cannot determine if both the nodes are on the left or right subtree, then that node is the point of intersection
 
         # TC: O(Height of the Tree)
         # SC: O(Height of the Tree)
+        # if root == None:
+        #     return root
+
+        # if p.val < root.val and q.val < root.val: # Move left
+        #     return self.lowestCommonAncestor(root.left, p, q)
+        # elif p.val > root.val and q.val > root.val:
+        #     return self.lowestCommonAncestor(root.right, p, q) # Move right
+        # else:
+        #     return root
+
+        # Optimal: Iterative
+        # TC: O(Height of the Tree)
+        # SC: O(1)
+
         if root == None:
-            return root
+            return None
 
-        if p.val < root.val and q.val < root.val: # Move left
-            return self.lowestCommonAncestor(root.left, p, q)
-        elif p.val > root.val and q.val > root.val:
-            return self.lowestCommonAncestor(root.right, p, q) # Move right
-        else:
-            return root
-
+        while root != None:
+            if p.val < root.val and q.val < root.val:
+                root = root.left
+            elif p.val > root.val and q.val > root.val:
+                root = root.right
+            else:
+                return root
+        
+        
 
 
 
