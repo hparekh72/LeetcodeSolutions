@@ -28,33 +28,55 @@
 
 #         self.inorder(root.right, prev, res)
 
-# Approach 2:
+# Approach 2: Similar to Approach 1 just little better
+# TC: O(N)
+# SC: O(N)
+
+# class Solution:
+#     def isValidBST(self, root: Optional[TreeNode]) -> bool:
+#         # Use a helper function that can use early exit
+#         # 'prev' is used as a mutable container to track the last node value
+#         self.prev = None
+#         return self.inorder(root)
+
+#     def inorder(self, root):
+#         if root is None:
+#             return True
+        
+#         # Traverse the left subtree
+#         if not self.inorder(root.left):
+#             return False
+
+#         # Check current node value with the previous node value
+#         if self.prev is not None and self.prev >= root.val:
+#             return False
+#         # Update the prev pointer
+#         self.prev = root.val
+
+#         # Traverse the right subtree
+#         return self.inorder(root.right)
+
+# Approach 3: Using minimum and maximum range boundary logic
 # TC: O(N)
 # SC: O(N)
 
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        # Use a helper function that can use early exit
-        # 'prev' is used as a mutable container to track the last node value
-        self.prev = None
-        return self.inorder(root)
+        return self.helper(root, float('-inf'), float('inf'))
+        
 
-    def inorder(self, root):
-        if root is None:
+    def helper(self, root, minValue, maxValue):
+        if root == None:
             return True
         
-        # Traverse the left subtree
-        if not self.inorder(root.left):
+        if root.val >= maxValue or root.val <= minValue:
             return False
 
-        # Check current node value with the previous node value
-        if self.prev is not None and self.prev >= root.val:
-            return False
-        # Update the prev pointer
-        self.prev = root.val
+        return self.helper(root.left, minValue, root.val) and self.helper(root.right, root.val, maxValue)
 
-        # Traverse the right subtree
-        return self.inorder(root.right)
+        
+
+
 
 
         
