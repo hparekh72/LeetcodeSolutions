@@ -30,6 +30,7 @@ A collection of LeetCode questions I have solved recently!
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0138-copy-list-with-random-pointer) |
@@ -49,6 +50,7 @@ A collection of LeetCode questions I have solved recently!
 ## Array
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
@@ -268,10 +270,15 @@ A collection of LeetCode questions I have solved recently!
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0090-subsets-ii) |
+## Matrix
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->
