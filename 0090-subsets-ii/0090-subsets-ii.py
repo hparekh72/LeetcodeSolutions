@@ -1,6 +1,6 @@
 class Solution:
-    # TC: O(2^n)
-    # SC: O(n)
+    # TC: O(2^n) * n
+    # SC:  O(2^n) * k + O(n) (recursive stack space)
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
         res = []
         self.getSubsetsWithDup(sorted(nums), 0, [], res)
