@@ -56,6 +56,7 @@ A collection of LeetCode questions I have solved recently!
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions I have solved recently!
 ## String Matching
 |  |
 | ------- |
+| [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
@@ -276,9 +278,11 @@ A collection of LeetCode questions I have solved recently!
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0090-subsets-ii) |
 ## Matrix
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
+| [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
