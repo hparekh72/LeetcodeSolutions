@@ -238,10 +238,12 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 ## String Matching
 |  |
 | ------- |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
 ## Hash Function
@@ -280,6 +282,7 @@ A collection of LeetCode questions I have solved recently!
 | [0078-subsets](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 ## Matrix
 |  |
 | ------- |
