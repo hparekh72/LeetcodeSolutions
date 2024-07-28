@@ -18,9 +18,9 @@ class Solution:
             fact = i * fact
             nums.append(i)
     
-        k -= 1 # 0-based indexing
-
         res = ""
+        
+        k -= 1 # 0-based indexing
         while len(nums) > 0:
             fact = fact // len(nums)
             res += str(nums[k // fact])
