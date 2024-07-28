@@ -30,6 +30,7 @@ A collection of LeetCode questions I have solved recently!
 ## Hash Table
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions I have solved recently!
 ## String Matching
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -275,6 +277,7 @@ A collection of LeetCode questions I have solved recently!
 ## Backtracking
 |  |
 | ------- |
+| [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0040-combination-sum-ii) |
