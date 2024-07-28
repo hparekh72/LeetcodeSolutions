@@ -45,6 +45,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0060-permutation-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0203-remove-linked-list-elements) |
 ## Array
@@ -288,4 +289,8 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
+## Math
+|  |
+| ------- |
+| [0060-permutation-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0060-permutation-sequence) |
 <!---LeetCode Topics End-->
