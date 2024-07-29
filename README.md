@@ -26,6 +26,7 @@ A collection of LeetCode questions I have solved recently!
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Hash Table
 |  |
@@ -66,6 +67,7 @@ A collection of LeetCode questions I have solved recently!
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Binary Search
@@ -73,6 +75,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
+| [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -103,6 +106,7 @@ A collection of LeetCode questions I have solved recently!
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 ## Merge Sort
 |  |
 | ------- |
@@ -114,6 +118,7 @@ A collection of LeetCode questions I have solved recently!
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Design
 |  |
@@ -318,4 +323,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+## Sliding Window
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 <!---LeetCode Topics End-->
