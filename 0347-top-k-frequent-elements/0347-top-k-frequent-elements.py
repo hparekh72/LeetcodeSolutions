@@ -2,7 +2,7 @@ import heapq
 from collections import Counter
 
 # TC: O(nlogk)
-# SC: O(n)
+# SC: O(n) + O(n)
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -11,18 +11,21 @@ class Solution:
 
         for num in nums:
             count[num] += 1
+
+        heap = []
+        for key, val in count.items():
+            heapq.heappush(heap, (val, key)) # Min-heap, since we need k most frequent elements
         
-        # Use heap 
-        heap = [(-freq, num) for num, freq in count.items()]
-        heapq.heapify(heap)
+            if len(heap) > k:
+                heapq.heappop(heap)
+        
+        res = []
+        for val, key in heap:
+            res.append(key)
 
-        # Extract the top k element from the heap
-        top_k = []
-        for i in range(k):
-            freq, num = heapq.heappop(heap)
-            top_k.append(num)
+        return res
 
-        return top_k
+
 
     # def topKFrequent(self, nums: List[int], k: int) -> List[int]:
     #     count = Counter(nums)
