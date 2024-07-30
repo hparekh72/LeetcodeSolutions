@@ -109,6 +109,7 @@ A collection of LeetCode questions I have solved recently!
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 ## Merge Sort
 |  |
@@ -130,6 +131,7 @@ A collection of LeetCode questions I have solved recently!
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0173-binary-search-tree-iterator) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
@@ -139,6 +141,7 @@ A collection of LeetCode questions I have solved recently!
 ## Data Stream
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Tree
 |  |
@@ -170,6 +173,7 @@ A collection of LeetCode questions I have solved recently!
 | [0662-maximum-width-of-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -223,6 +227,7 @@ A collection of LeetCode questions I have solved recently!
 | [0662-maximum-width-of-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -283,6 +288,7 @@ A collection of LeetCode questions I have solved recently!
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Monotonic Stack
 |  |
