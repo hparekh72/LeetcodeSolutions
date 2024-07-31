@@ -39,6 +39,7 @@ A collection of LeetCode questions I have solved recently!
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions I have solved recently!
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -109,6 +111,7 @@ A collection of LeetCode questions I have solved recently!
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
@@ -124,6 +127,7 @@ A collection of LeetCode questions I have solved recently!
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -337,6 +341,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 ## Sliding Window
 |  |
 | ------- |
@@ -345,4 +350,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
+## Greedy
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
