@@ -75,6 +75,7 @@ A collection of LeetCode questions I have solved recently!
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1127-last-stone-weight) |
@@ -367,4 +368,5 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
+| [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
 <!---LeetCode Topics End-->
