@@ -74,6 +74,7 @@ A collection of LeetCode questions I have solved recently!
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions I have solved recently!
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
+| [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
@@ -287,6 +289,7 @@ A collection of LeetCode questions I have solved recently!
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 ## String Matching
 |  |
 | ------- |
@@ -372,6 +375,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
+| [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
