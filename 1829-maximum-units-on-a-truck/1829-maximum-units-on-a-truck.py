@@ -15,11 +15,9 @@ class Solution:
                 truckSize -= boxTypes[i][0]
                 i += 1
                 print(res, truckSize)
-            else:   
+            else: 
+                res += truckSize * boxTypes[i][1]  
                 break
-
-        if i < len(boxTypes) and truckSize > 0:
-            res += truckSize * boxTypes[i][1]
 
         return res
         
