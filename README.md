@@ -84,6 +84,7 @@ A collection of LeetCode questions I have solved recently!
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1127-last-stone-weight](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1127-last-stone-weight) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
+| [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
 ## Binary Search
 |  |
 | ------- |
@@ -147,6 +148,7 @@ A collection of LeetCode questions I have solved recently!
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
 ## Design
 |  |
 | ------- |
@@ -385,4 +387,5 @@ A collection of LeetCode questions I have solved recently!
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
+| [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
 <!---LeetCode Topics End-->
