@@ -86,12 +86,14 @@ A collection of LeetCode questions I have solved recently!
 | [1127-last-stone-weight](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1127-last-stone-weight) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Binary Search
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -131,6 +133,7 @@ A collection of LeetCode questions I have solved recently!
 | [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1127-last-stone-weight) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Merge Sort
 |  |
 | ------- |
@@ -151,6 +154,7 @@ A collection of LeetCode questions I have solved recently!
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
+| [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Design
 |  |
 | ------- |
@@ -390,4 +394,8 @@ A collection of LeetCode questions I have solved recently!
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
+## Line Sweep
+|  |
+| ------- |
+| [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 <!---LeetCode Topics End-->
