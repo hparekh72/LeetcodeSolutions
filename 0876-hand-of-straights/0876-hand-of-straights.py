@@ -3,6 +3,10 @@
 
 class Solution:
     def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
+
+        if len(hand) % groupSize:
+            return False
+
         hand.sort()
         
         hashMap = defaultdict(int)
@@ -17,12 +21,14 @@ class Solution:
 
                 if i not in hashMap:
                     return False
-                    
+
                 hashMap[i] -= 1
                 if hashMap[i] == 0:
                     del hashMap[i]
 
         return True
+
+
 
 
 
