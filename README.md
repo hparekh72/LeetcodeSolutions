@@ -65,6 +65,7 @@ A collection of LeetCode questions I have solved recently!
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0078-subsets](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0078-subsets) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
+| [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
@@ -296,6 +298,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
