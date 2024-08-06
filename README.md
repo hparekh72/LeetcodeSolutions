@@ -30,6 +30,7 @@ A collection of LeetCode questions I have solved recently!
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [0768-partition-labels](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0768-partition-labels) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Hash Table
 |  |
@@ -45,6 +46,7 @@ A collection of LeetCode questions I have solved recently!
 | [0355-design-twitter](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0768-partition-labels](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions I have solved recently!
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0768-partition-labels](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0768-partition-labels) |
 ## Hash Function
 |  |
 | ------- |
@@ -401,6 +404,7 @@ A collection of LeetCode questions I have solved recently!
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0768-partition-labels](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
