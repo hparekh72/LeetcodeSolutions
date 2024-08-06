@@ -91,6 +91,7 @@ A collection of LeetCode questions I have solved recently!
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Binary Search
 |  |
 | ------- |
@@ -403,6 +404,7 @@ A collection of LeetCode questions I have solved recently!
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Line Sweep
 |  |
 | ------- |
