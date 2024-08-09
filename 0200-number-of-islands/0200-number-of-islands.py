@@ -1,5 +1,5 @@
 # TC: O(N^2) + (4 * N * M) 
-# SC: O(N^2)(visited) + O(N^2)(queue in bfs) O(N + M) (recursive call stack in dfs)
+# SC: O(N^2)(visited) + O(N^2)(queue in bfs) O(N * M) (recursive call stack in dfs)
 
 class Solution:
 
@@ -50,8 +50,8 @@ class Solution:
         for r in range(row):
             for c in range(col):
                 if grid[r][c] == "1" and visited[r][c] == 0:
-                    # self.dfs(grid, r, c, row, col, visited)
-                    self.bfs(grid, r, c, row, col, visited)
+                    self.dfs(grid, r, c, row, col, visited)
+                    # self.bfs(grid, r, c, row, col, visited)
                     res += 1
 
         return res
