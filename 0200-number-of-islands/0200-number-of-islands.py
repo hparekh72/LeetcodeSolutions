@@ -50,8 +50,8 @@ class Solution:
         for r in range(row):
             for c in range(col):
                 if grid[r][c] == "1" and visited[r][c] == 0:
-                    self.dfs(grid, r, c, row, col, visited)
-                    # self.bfs(grid, r, c, row, col, visited)
+                    # self.dfs(grid, r, c, row, col, visited)
+                    self.bfs(grid, r, c, row, col, visited)
                     res += 1
 
         return res
