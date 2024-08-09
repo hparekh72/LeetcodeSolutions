@@ -1,5 +1,6 @@
-# TC: O(N + 2E)
-# SC: O(N)
+# TC: O(N) + O(V + 2E) ~ O(N)
+# SC: O(N) + O(N) (recursive stack space) ~ O(N)
+
 
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
