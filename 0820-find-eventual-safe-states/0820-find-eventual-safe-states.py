@@ -1,5 +1,16 @@
 # Intution: All possible paths starting from a node are going to end at some terminal node unless there exists a cycle and the paths return back to themselves. So, the intuition is to figure out the nodes which are neither a part of a cycle nor connected to the cycle.
 
+# Note:
+# We can eliminate the check array and just use if(pathVisited[i] == 0) to get the safe nodes and use the absolute same code as cycle detection in directed graph, just add this in end:
+
+#     safeNodes = []
+#     for i in range(V):
+#         if path[i] == 0:
+#                 safeNodes.append(i)
+
+#         return safeNodes
+
+
 # TC: O(N) + O(N + E)
 # SC: O(3N) + O(N) (dfs recursive stack space) ~ O(N)
 
@@ -18,7 +29,7 @@ class Solution:
                 safeNodes.append(i)
 
         return safeNodes
-        
+
 
     def dfs(self, node, graph, visited, pathVisited, check): # TC: O(N + E)
         visited[node] = 1
