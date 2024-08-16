@@ -3,27 +3,30 @@
 # 2) Topological Sort (using BFS)
 
 
-# Topological Sort 
-# TC: O(V + E), V = number of courses
-# SC: O(number of courses)
+# Topological Sort
+# TC: O(V + E), V = number of courses, E = number of edges(prerequisites)
+# SC: O(V + E) (adjacency list & indegree) + O(V) (queue & result) ~ O(V)
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
 
-        # Create adjacency list
-        pre = defaultdict(list)
+        # Create adjacency list # TC: O(E)
+        pre = defaultdict(list) 
         for course, prerequisite in prerequisites:
-            pre[course].append(prerequisite)
+            pre[prerequisite].append(course)
+
+
+        indegree = [0] * numCourses
+        # Calculate the indegree for each node # TC: O(E)
+        # for node in pre:
+        #     for neighbor in pre[node]:
+        #         indegree[neighbor] += 1
+
+        for course, prerequisite in prerequisites:
+            indegree[course] += 1
 
         # Topological Sort
-
         queue = deque()
-        indegree = [0] * numCourses
-
-        # Calculate the indegree for each node
-        for node in pre:
-            for neighbor in pre[node]:
-                indegree[neighbor] += 1
 
         # Add the nodes in the queue whose indegree is 0
         for i in range(len(indegree)):
