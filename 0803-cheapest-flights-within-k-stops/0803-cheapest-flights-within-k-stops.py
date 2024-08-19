@@ -43,9 +43,8 @@
 #         return -1
 
 # BFS Implementation
-# TC: O(n) 
-# SC: O(E) (adjacency list) + O(n) (queue)
-
+# TC: O(E) 
+# SC: Memory Limit Exceeded
 
 # class Solution:
 #     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
@@ -64,7 +63,6 @@
 #         # BFS Implementation
 #         while queue:
 #             price, city, stops = queue.popleft()
-#             print(price, city, stops)
 
 #             if city == dst:
 #                 minPrice = min(price, minPrice)
@@ -105,7 +103,6 @@ class Solution:
         # BFS Implementation
         while queue:        # TC: O(E) 
             stops, city, price = queue.popleft()
-            print(stops, city, price)
 
             if stops > k:
                 continue
