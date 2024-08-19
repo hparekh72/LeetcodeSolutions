@@ -16,6 +16,7 @@ class Solution:
 
         queue.append([1, (0, 0)]) # Distance, Position
         distance = [[float('inf') for _ in range(rows)] for _ in range(cols)]
+        distance[0][0] = 1 # Distance of starting position
 
         # 8 directions
         dRow = [-1, 1, 0, 0, -1, 1, -1, 1]
