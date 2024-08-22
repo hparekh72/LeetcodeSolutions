@@ -24,7 +24,7 @@
 # Approach 2: Using Disjoint Set
 
 # Disjoint Set Time and Space Complexity
-# TC: O(N * N) O(n) + O(4α), here α = constant
+# TC: O(N) + O(4α), here α = constant
 # SC: O(N) (parent, size, rank array) 
 class DisjointSet:
     def __init__(self, n): # TC: O(n)
