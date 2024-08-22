@@ -1,3 +1,10 @@
+# Approach 1: Using DFS/Bfs
+# 1. Count the number of components using bfs/DFS
+# 2. To make a graph connected, we required at least n-1 edges. If given edges >= n-1 edges then we can connect the components otherwise we cannot.
+# 3. If possible, return total components - 1 or if not possible, simply return -1.
+# TC: O(E) + O(N) + O(V + 2E) ~ O(N)
+# SC: O(N) (visited array) + O(N) (recursive stack space) ~ O(N)
+
 # Note for me:
 # 1) DSU extra edge of same component ko ignore karta hai
 # 2) DSU minimum edge ka connected graph hota hai ( for visualization )
