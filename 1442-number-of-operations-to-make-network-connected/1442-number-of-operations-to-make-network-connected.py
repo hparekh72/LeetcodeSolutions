@@ -1,3 +1,9 @@
+# Note for me:
+# 1) DSU extra edge of same component ko ignore karta hai
+# 2) DSU minimum edge ka connected graph hota hai ( for visualization )
+# 3) component of graph ki bat ho rahi think of DSU once
+
+
 # Approach: Using Disjoint Set
 
 # Disjoint Set Time and Space Complexity
@@ -5,7 +11,7 @@
 # SC: O(N) (parent, size, rank array) 
 class DisjointSet:
     def __init__(self, n): # TC: O(N)
-        self.rank = [0] * (n + 1) # Can be used for 0-based and 1-based indexing 
+        # self.rank = [0] * (n + 1) # Can be used for 0-based and 1-based indexing 
         self.size = [1] * (n + 1)
         self.parent = [i for i in range(n+1)] 
         
@@ -17,20 +23,20 @@ class DisjointSet:
         self.parent[node] = self.findUltimateParent(self.parent[node])
         return self.parent[node]
         
-    def unionByRank(self, u, v): # TC: O(4α)
-        ulp_u = self.findUltimateParent(u)
-        ulp_v = self.findUltimateParent(v)
+    # def unionByRank(self, u, v): # TC: O(4α)
+    #     ulp_u = self.findUltimateParent(u)
+    #     ulp_v = self.findUltimateParent(v)
 
-        if (ulp_u == ulp_v):
-            return
+    #     if (ulp_u == ulp_v):
+    #         return
         
-        if self.rank[ulp_u] < self.rank[ulp_v]:
-            self.parent[ulp_u] = ulp_v
-        elif self.rank[ulp_u] > self.rank[ulp_v]:
-            self.parent[ulp_v] = ulp_u
-        else:
-            self.parent[ulp_v] = ulp_u
-            self.rank[ulp_u] += 1
+    #     if self.rank[ulp_u] < self.rank[ulp_v]:
+    #         self.parent[ulp_u] = ulp_v
+    #     elif self.rank[ulp_u] > self.rank[ulp_v]:
+    #         self.parent[ulp_v] = ulp_u
+    #     else:
+    #         self.parent[ulp_v] = ulp_u
+    #         self.rank[ulp_u] += 1
             
     def unionBySize(self, u, v): # TC: O(4α)
         ulp_u = self.findUltimateParent(u)
