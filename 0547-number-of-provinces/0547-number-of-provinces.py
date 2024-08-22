@@ -27,7 +27,7 @@
 # TC: O(N) + O(4α), here α = constant
 # SC: O(N) (parent, size, rank array) 
 class DisjointSet:
-    def __init__(self, n): # TC: O(n)
+    def __init__(self, n): # TC: O(N)
         self.rank = [0] * (n + 1) # Can be used for 0-based and 1-based indexing 
         self.size = [1] * (n + 1)
         self.parent = [i for i in range(n+1)] 
@@ -78,7 +78,7 @@ class Solution:
 
         ds = DisjointSet(n)
 
-        for i in range(n): # TC: O(N * N)
+        for i in range(n): # TC: O(N ^ 2)
             for j in range(n):
                 if isConnected[i][j] == 1: # ie. there is an edge between i and j
                     ds.unionBySize(i, j)
