@@ -92,6 +92,7 @@ A collection of LeetCode questions I have solved recently!
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions I have solved recently!
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1036-rotting-oranges) |
@@ -339,6 +341,7 @@ A collection of LeetCode questions I have solved recently!
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
+| [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1073-number-of-enclaves) |
@@ -420,6 +423,7 @@ A collection of LeetCode questions I have solved recently!
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -480,6 +484,7 @@ A collection of LeetCode questions I have solved recently!
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
+| [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [1073-number-of-enclaves](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
