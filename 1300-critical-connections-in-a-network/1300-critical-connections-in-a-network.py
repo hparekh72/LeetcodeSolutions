@@ -45,5 +45,5 @@ class Solution:
             else:
                 # Back edge
                 # Update low value if neighbor is already visited and not the parent
-                low[node] = min(low[node], discoveryTime[neighbor])
+                low[node] = min(low[node], low[neighbor])
 
