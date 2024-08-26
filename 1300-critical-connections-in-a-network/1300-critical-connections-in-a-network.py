@@ -1,6 +1,17 @@
 # TC: O(V + 2E) (dfs) + O(V + 2E) (adjacency list) + O()
 # SC: O(V + 2E) (adjacency list) + O(V) (visited, discoveryTime, low and dfs recursion stack space)
 
+# Intuition:
+# This approach uses a Depth-First Search (DFS) to identify "bridges" in an undirected graph.
+# A bridge is an edge removing which increases the number of connected components.
+# We apply Tarjan's algorithm to find these bridges:
+# - Discovery Time records when a node is first visited.
+# - Low-link Value is the smallest discovery time reachable from a node.
+# The critical condition for an edge (u, v) to be a bridge is:
+#   If the lowest point reachable from 'v' is still higher than the discovery time of 'u'.
+# This means 'v' cannot reach 'u' or any ancestor of 'u' by any other path except through 'u'.
+
+
 class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
         # Create adjacency list
@@ -26,7 +37,8 @@ class Solution:
     def dfs(self, node, parent, timer, graph, visited, discoveryTime, low, res): # TC: O(V + 2E)
         visited.add(node)
         discoveryTime[node] = low[node] = timer[0]
-        timer[0] = timer[0] + 1
+        timer[0] = timer[0] + 1 # Increment the timer for the next node
+
 
         for neighbor in graph[node]:
             if neighbor == parent:   # Skip the edge to parent to avoid cycle in undirected graph
@@ -38,12 +50,12 @@ class Solution:
                 # Update low value of node after DFS completion of neighbor
                 low[node] = min(low[node], low[neighbor])
 
-                # Check if the connection is critical
+                # Check if the current edge is a critical connection
                 if low[neighbor] > discoveryTime[node]: # Bridge condition
                     res.append([node, neighbor])
 
             else:
                 # Back edge
                 # Update low value if neighbor is already visited and not the parent
-                low[node] = min(low[node], low[neighbor])
+                low[node] = min(low[node], discoveryTime[neighbor])
 
