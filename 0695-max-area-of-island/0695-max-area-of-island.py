@@ -1,6 +1,8 @@
 # TC: O(4 * (n * m)) ~ O(n * m)
 # SC: O(n * m) (visited array and dfs recursion call stack)
 
+# Note: Can also use count[0] = 0 and sent count in the dfs function call
+
 class Solution:
 
     def dfs(self, r, c, grid, visited, rows, cols): 
