@@ -91,6 +91,7 @@ A collection of LeetCode questions I have solved recently!
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions I have solved recently!
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
@@ -337,6 +339,7 @@ A collection of LeetCode questions I have solved recently!
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
@@ -425,6 +428,7 @@ A collection of LeetCode questions I have solved recently!
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1036-rotting-oranges) |
@@ -485,6 +489,7 @@ A collection of LeetCode questions I have solved recently!
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
