@@ -156,6 +156,7 @@ A collection of LeetCode questions I have solved recently!
 | [0355-design-twitter](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions I have solved recently!
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
@@ -351,6 +353,7 @@ A collection of LeetCode questions I have solved recently!
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
@@ -517,6 +520,7 @@ A collection of LeetCode questions I have solved recently!
 | [0210-course-schedule-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
@@ -536,6 +540,7 @@ A collection of LeetCode questions I have solved recently!
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
