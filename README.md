@@ -264,6 +264,7 @@ A collection of LeetCode questions I have solved recently!
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
@@ -345,6 +346,7 @@ A collection of LeetCode questions I have solved recently!
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0662-maximum-width-of-binary-tree) |
+| [0684-redundant-connection](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
@@ -496,6 +498,7 @@ A collection of LeetCode questions I have solved recently!
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
@@ -511,6 +514,7 @@ A collection of LeetCode questions I have solved recently!
 | [0207-course-schedule](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0547-number-of-provinces) |
+| [0684-redundant-connection](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
