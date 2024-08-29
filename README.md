@@ -106,6 +106,7 @@ A collection of LeetCode questions I have solved recently!
 | [1127-last-stone-weight](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
+| [1706-min-cost-to-connect-all-points](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1829-maximum-units-on-a-truck](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1829-maximum-units-on-a-truck) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
@@ -506,6 +507,7 @@ A collection of LeetCode questions I have solved recently!
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1073-number-of-enclaves](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1073-number-of-enclaves) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1706-min-cost-to-connect-all-points](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
 ## Graph
 |  |
@@ -522,6 +524,7 @@ A collection of LeetCode questions I have solved recently!
 | [1300-critical-connections-in-a-network](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1300-critical-connections-in-a-network) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1706-min-cost-to-connect-all-points](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 ## Topological Sort
 |  |
@@ -540,4 +543,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1300-critical-connections-in-a-network) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
