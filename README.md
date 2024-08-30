@@ -96,6 +96,7 @@ A collection of LeetCode questions I have solved recently!
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions I have solved recently!
 | [0222-count-complete-tree-nodes](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Bit Manipulation
@@ -158,6 +160,7 @@ A collection of LeetCode questions I have solved recently!
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1127-last-stone-weight) |
@@ -271,6 +274,7 @@ A collection of LeetCode questions I have solved recently!
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
@@ -354,6 +358,7 @@ A collection of LeetCode questions I have solved recently!
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0820-find-eventual-safe-states) |
@@ -443,6 +448,7 @@ A collection of LeetCode questions I have solved recently!
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [1036-rotting-oranges](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1073-number-of-enclaves) |
@@ -505,6 +511,7 @@ A collection of LeetCode questions I have solved recently!
 | [0684-redundant-connection](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
+| [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0801-is-graph-bipartite](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
