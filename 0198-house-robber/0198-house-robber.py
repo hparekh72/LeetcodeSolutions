@@ -6,7 +6,7 @@ class Solution:
         # return self.solveUsingRecursion(n - 1, nums)
         # return self.solveUsingMemoization(n - 1, nums, dp)
         # return self.solveUsingTabulation(nums, dp)
-        return self.solveUsingSpaceOptimization(nums, dp)
+        return self.solveUsingSpaceOptimization(nums)
 
     # TC: O(2 ^ n) (exponential)
     # SC: O(n) (recursion stack space)
@@ -76,7 +76,7 @@ class Solution:
 
     # TC: O(n)
     # SC: O(1)
-    def solveUsingSpaceOptimization(self, nums, dp):
+    def solveUsingSpaceOptimization(self, nums):
         n = len(nums)
 
         prev = nums[0]
