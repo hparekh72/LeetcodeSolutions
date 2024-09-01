@@ -85,6 +85,7 @@ A collection of LeetCode questions I have solved recently!
 | [0135-candy](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0135-candy) |
 | [0198-house-robber](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
+| [0213-house-robber-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
@@ -383,6 +384,7 @@ A collection of LeetCode questions I have solved recently!
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0213-house-robber-ii) |
 | [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
