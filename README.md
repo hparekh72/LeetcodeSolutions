@@ -380,6 +380,7 @@ A collection of LeetCode questions I have solved recently!
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
@@ -463,6 +464,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0060-permutation-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0060-permutation-sequence) |
+| [0062-unique-paths](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
@@ -569,4 +571,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
