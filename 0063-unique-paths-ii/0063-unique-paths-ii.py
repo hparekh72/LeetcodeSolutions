@@ -7,7 +7,9 @@ class Solution:
 
         dp = [[-1 for _ in range(n)] for _ in range(m)]
 
-        return self.solveUsingMemoization(m - 1, n - 1, m, n, obstacleGrid, dp)
+        # return self.solveUsingMemoization(m - 1, n - 1, m, n, obstacleGrid, dp)
+
+        return self.solveUsingTabulation(m, n, obstacleGrid, dp)
 
 
     # TC: 2^(m * n)
@@ -50,6 +52,29 @@ class Solution:
 
         dp[r][c] = up + left
         return dp[r][c]
+
+    # Tabulation
+    # TC: O(m * n)
+    # SC: O(m * n) (dp array) 
+
+    def solveUsingTabulation(self, m, n, obstacleGrid, dp):
+        for r in range(m):
+            for c in range(n):
+                if obstacleGrid[r][c] == 1:
+                    dp[r][c] = 0
+                elif r == 0 and c == 0:
+                    dp[r][c] = 1
+                else:
+                    up, left = 0, 0
+                    if r > 0:
+                        up = dp[r - 1][c]
+                    
+                    if c > 0:
+                        left = dp[r][c - 1]
+
+                    dp[r][c] = up + left
+
+        return dp[m - 1][n - 1]
 
 
 
