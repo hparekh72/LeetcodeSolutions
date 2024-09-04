@@ -6,7 +6,8 @@ class Solution:
         
         # return self.solveUsingMemoization(0, 0, m, n, dp)
         # return self.solveUsingMemoization2(m - 1, n - 1, m, n, dp)
-        return self.solveUsingTabulation(m, n, dp)
+        # return self.solveUsingTabulation(m, n, dp)
+        return self.solveUsingSpaceOptimization(m, n)
 
     # TC: 2^(m * n)
     # SC: O(m + n) (recussion stack space)
@@ -90,6 +91,34 @@ class Solution:
                     dp[r][c] = up + left
 
         return dp[m - 1][n - 1]
+
+    # Space Optimization
+    # TC: O(m * n)
+    # SC: O(n) (dp array) 
+
+    def solveUsingSpaceOptimization(self, m, n):
+        prevRow = [-1] * n
+        for r in range(m):
+            curr = [-1] * n
+            for c in range(n):
+                if r == 0 and c == 0:
+                    curr[c] = 1
+                else:
+                    up, left = 0, 0
+                    if r > 0:
+                        up = prevRow[c]
+                    if c > 0:
+                        left = curr[c-1]
+                    
+                    curr[c] = up + left
+                
+            prevRow = curr
+
+        return prevRow[n - 1]
+                
+
+
+        
 
 
 
