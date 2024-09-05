@@ -6,7 +6,8 @@ class Solution:
         dp = [[-1 for _ in range(m)] for _ in range(m)]
 
         # return self.solveUsingMemoization(0, 0, m, triangle, dp)
-        return self.solveUsingTabulation(m, triangle, dp)
+        # return self.solveUsingTabulation(m, triangle, dp)
+        return self.solveUsingSpaceOptimization(m, triangle, dp)
         
 
     # TC: O(2^(m * m))
@@ -42,7 +43,7 @@ class Solution:
     # Note: No of columns in each row = row number. Eg: 3rd row (0-based indexing) = 0, 1, 2, 3 columns
     
     # TC: O(m * m)
-    # SC: O(m * m)
+    # SC: O(m * m) (dp array)
     def solveUsingTabulation(self, m, triangle, dp):
         # (Base Case) Using the base case of memoization
         for c in range(m):
@@ -56,7 +57,29 @@ class Solution:
                 dp[r][c] = min(down, downRight)
         
         return dp[0][0]
-   
+
+
+    # TC: O(m * m)
+    # SC: O(m) (frontRow and currRow array)
+
+    def solveUsingSpaceOptimization(self, m, triangle, dp):
+        # (Base Case) Using the base case of memoization
+
+        frontRow = [-1] * m 
+
+        for c in range(m):
+            frontRow[c] = triangle[m - 1][c]
+
+        for r in range(m - 2, -1, -1):
+            currRow = [-1] * m
+            for c in range(r, -1, -1):
+                down = triangle[r][c] + frontRow[c] 
+                downRight = triangle[r][c] + frontRow[c + 1] 
+
+                currRow[c] = min(down, downRight)
+            frontRow = currRow
+        
+        return frontRow[0] # Can also return currRow[0]
 
         
 
