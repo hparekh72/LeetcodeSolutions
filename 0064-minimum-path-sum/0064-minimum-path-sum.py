@@ -89,7 +89,7 @@ class Solution:
                     currRow[c] = min(left, up)
             prevRow = currRow
 
-        return prevRow[n - 1]
+        return prevRow[n - 1] # Can also use currRow
 
 
 
