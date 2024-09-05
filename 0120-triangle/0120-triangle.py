@@ -5,7 +5,8 @@ class Solution:
 
         dp = [[-1 for _ in range(m)] for _ in range(m)]
 
-        return self.solveUsingMemoization(0, 0, m, triangle, dp)
+        # return self.solveUsingMemoization(0, 0, m, triangle, dp)
+        return self.solveUsingTabulation(m, triangle, dp)
         
 
     # TC: O(2^(m * m))
@@ -37,5 +38,35 @@ class Solution:
 
         dp[r][c] = min(down, downRight)
         return dp[r][c]
+
+    # Note: No of columns in each row = row number. Eg: 3rd row (0-based indexing) = 0, 1, 2, 3 columns
+    
+    # TC: O(m * m)
+    # SC: O(m * m)
+    def solveUsingTabulation(self, m, triangle, dp):
+        # (Base Case) Using the base case of memoization
+        for c in range(m):
+            dp[m - 1][c] = triangle[m - 1][c]
+
+        for r in range(m - 2, -1, -1):
+            for c in range(r, -1, -1):
+                down = triangle[r][c] + dp[r + 1][c] 
+                downRight = triangle[r][c] + dp[r + 1][c + 1] 
+
+                dp[r][c] = min(down, downRight)
+        
+        return dp[0][0]
+   
+
+        
+
+
+
+        
+
+        
+
+        
+
 
         
