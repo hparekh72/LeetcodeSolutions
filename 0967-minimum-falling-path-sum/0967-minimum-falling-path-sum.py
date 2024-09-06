@@ -13,7 +13,11 @@ class Solution:
         # return minimumPathSum
 
         
-        return self.solveUsingTabulation(matrix, n, dp)
+        # return self.solveUsingTabulation(matrix, n, dp)
+        return self.solveUsingSpaceOptimization(matrix, n)
+
+
+
 
     # TC: O(3 ^ (n * n))
     # SC: O(n) (recursion stack space)
@@ -87,6 +91,38 @@ class Solution:
         return minimumPathSum
 
 
+
+    # TC: O(n * n)
+    # SC: O(n) (prevRow and currRow array) 
+
+    def solveUsingSpaceOptimization(self, matrix, n): 
+
+        prevRow = [-1] * n
+
+        for c in range(n): # Base Case of Memoization
+            prevRow[c] = matrix[0][c] # When r == 0
+
+        for r in range(1, n):
+            currRow = [-1] * n
+            for c in range(n):
+                up = matrix[r][c] + prevRow[c]
+
+                upLeft = float('inf')
+                if c > 0:
+                    upLeft = matrix[r][c] + prevRow[c - 1]
+
+                upRight = float('inf')
+                if c + 1 < n:
+                    upRight = matrix[r][c] + prevRow[c + 1]
+            
+                currRow[c] = min(up, upLeft, upRight)
+
+            prevRow = currRow
+
+        # Return the minimum falling path.
+        minimumPathSum = min(prevRow)
+
+        return minimumPathSum
 
 
 
