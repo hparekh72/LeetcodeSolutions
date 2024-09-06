@@ -13,9 +13,7 @@ class Solution:
         # return minimumPathSum
 
         
-        x = self.solveUsingTabulation(matrix, n, dp)
-        print(dp)
-        return x
+        return self.solveUsingTabulation(matrix, n, dp)
 
     # TC: O(3 ^ (n * n))
     # SC: O(n) (recursion stack space)
@@ -80,13 +78,16 @@ class Solution:
             
                 dp[r][c] = min(up, upLeft, upRight)
 
-        # Reruen the minimum falling path.
+        # Return the minimum falling path.
         minimumPathSum = float('inf') 
         for c in range(n):
             if dp[n - 1][c] < minimumPathSum:
                 minimumPathSum = dp[n - 1][c]
 
         return minimumPathSum
+
+
+
 
 
 
