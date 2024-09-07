@@ -1,3 +1,5 @@
+# Note: We cannot apply greedy algorithm over here, as uniformity is not their in the numbers.
+
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
         n = len(matrix)
