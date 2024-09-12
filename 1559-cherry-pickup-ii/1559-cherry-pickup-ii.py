@@ -7,7 +7,9 @@ class Solution:
 
         # return self.solveUsingRecursion(0, 0, cols - 1, rows, cols, grid) 
         # return self.solveUsingMemoization(0, 0, cols - 1, rows, cols, grid, dp) 
-        return self.solveUsingTabulation(rows, cols, grid, dp)
+        # return self.solveUsingTabulation(rows, cols, grid, dp)
+        return self.solveUsingSpaceOptimization(rows, cols, grid)
+
     
 
     # TC: O(3^n * 3^n)
@@ -116,21 +118,51 @@ class Solution:
 
         return dp[0][0][cols - 1]
 
+
+
+
+    # TC: O(rows * cols * cols)
+    # SC: O(rows * cols * cols) 
+
+    def solveUsingSpaceOptimization(self, rows, cols, grid):
+        
+        front = [[0 for _ in range(cols)] for _ in range(cols)]
+        curr = [[0 for _ in range(cols)] for _ in range(cols)]
+
+        # Base Case
+        for c1 in range(cols):
+            for c2 in range(cols):
+                # If both robots are on the same cell
+                if c1 == c2:
+                    front[c1][c2] = grid[rows - 1][c1]
+                else:
+                    front[c1][c2] = grid[rows - 1][c1] + grid[rows - 1][c2]
+
+        for r in range(rows - 2, -1, -1):
+            for c1 in range(cols):
+                for c2 in range(cols):
+                    # Explore all paths of Robot1 and Robot2 simultaneously
+                    maxCherries = float('-inf')
+
+                    # Try out 9 possible options by changing the indices
+                    for dr1 in range(-1, 2):
+                        for dr2 in range(-1, 2):
+                            value = 0
+                            if c1 == c2:
+                                value = grid[r][c1]
+                            else:
+                                value = grid[r][c1] + grid[r][c2]
                             
+                            if c1 + dr1 >= 0 and c1 + dr1 < cols and c2 + dr2 >= 0 and c2 + dr2 < cols:
+                                value += front[c1 + dr1][c2 + dr2] 
+                            else:
+                                value += float('-inf')
 
-
-    
-
-        
-
+                            maxCherries = max(maxCherries, value)
+                    curr[c1][c2] = maxCherries
             
-    
+            front = [row[:] for row in curr]
 
+        return front[0][cols - 1]
 
-
-
-
-        
-
-        
-            
+                            
