@@ -11,7 +11,9 @@ class Solution:
 
             dp = [[-1 for _ in range(target + 1)] for _ in range(n)]
 
-            return self.solveUsingMemoization(n - 1, target, nums, dp)
+            # return self.solveUsingMemoization(n - 1, target, nums, dp)
+
+            return self.solveUsingTabulation(target, nums, n)
 
     
     # Subset Sum Problem
@@ -63,4 +65,30 @@ class Solution:
         return dp[ind][target]
 
 
- 
+    # TC: O(n * k)
+    # SC: O(n * k) 
+
+    def solveUsingTabulation(self, target, nums, n):
+
+        dp = [[False for _ in range(target + 1)] for _ in range(n)]
+
+        # Base Case
+        for ind in range(n):
+            dp[ind][0] = True
+
+        if nums[0] <= target:
+            dp[0][nums[0]] = True
+
+        for ind in range(n):
+            for t in range(target + 1):
+                # Not Pick
+                notPick = dp[ind - 1][t]
+
+                # Pick
+                pick = 0
+                if nums[ind] <= t:
+                    pick = dp[ind - 1][t - nums[ind]]
+
+                dp[ind][t] = pick or notPick
+
+        return dp[n - 1][target]
