@@ -13,7 +13,9 @@ class Solution:
 
             # return self.solveUsingMemoization(n - 1, target, nums, dp)
 
-            return self.solveUsingTabulation(target, nums, n)
+            # return self.solveUsingTabulation(target, nums, n)
+
+            return self.solveUsingSpaceOptimization(target, nums, n)
 
     
     # Subset Sum Problem
@@ -92,3 +94,35 @@ class Solution:
                 dp[ind][t] = pick or notPick
 
         return dp[n - 1][target]
+
+    # TC: O(n * k)
+    # SC: O(k) 
+    def solveUsingSpaceOptimization(self, target, nums, n):
+        
+        prev = [False for _ in range(target + 1)]
+        prev[0] = True  # When target = 0
+
+        # Base Case
+        if nums[0] <= target:
+            prev[nums[0]] = True
+
+        for ind in range(1, n):
+            curr = [False for _ in range(target + 1)]
+            curr[0] = True 
+            
+            for t in range(1, target + 1):
+                # Not Pick
+                notPick = prev[t]
+
+                # Pick
+                pick = 0
+                if nums[ind] <= t:
+                    pick = prev[t - nums[ind]]
+
+                curr[t] = pick or notPick
+
+            prev = curr
+
+        return prev[target]
+
+
