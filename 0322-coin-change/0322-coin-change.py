@@ -15,7 +15,14 @@ class Solution:
         # else:
         #     return ans
 
-        ans = self.solveUsingTabulation(amount, coins, n)
+
+        # ans = self.solveUsingTabulation(amount, coins, n)
+        # if ans == float('inf'):
+        #     return -1
+        # else:
+        #     return ans
+
+        ans = self.solveUsingSpaceOptimization(amount, coins, n)
         if ans == float('inf'):
             return -1
         else:
@@ -90,6 +97,35 @@ class Solution:
                 dp[ind][num] = min(notPick, pick)
 
         return dp[n - 1][amount]
+
+
+    # TC: O(amount * n)
+    # SC: O(amount) 
+
+    def solveUsingSpaceOptimization(self, amount, coins, n):
+        prev = [float('inf') for _ in range(amount + 1)]
+
+        # Base Case
+        for num in range(amount + 1):
+            if num % coins[0] == 0: 
+                prev[num] = num // coins[0]
+
+        for ind in range(1, n):
+            curr = [float('inf') for _ in range(amount + 1)]
+            for num in range(amount + 1):
+                # Not Pick
+                notPick = 0 + prev[num] 
+
+                # Pick
+                pick = float('inf')
+                if coins[ind] <= num:
+                    pick = 1 + curr[num - coins[ind]]
+
+                curr[num] = min(notPick, pick)
+            
+            prev = curr
+
+        return prev[amount]
 
                 
 
