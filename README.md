@@ -97,6 +97,7 @@ A collection of LeetCode questions I have solved recently!
 | [0417-pacific-atlantic-water-flow](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions I have solved recently!
 | [0322-coin-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
+| [0494-target-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -458,6 +460,7 @@ A collection of LeetCode questions I have solved recently!
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0494-target-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0494-target-sum) |
 ## Matrix
 |  |
 | ------- |
