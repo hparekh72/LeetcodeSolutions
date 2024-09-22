@@ -10,7 +10,7 @@ class Solution:
         return self.solveUsingSpaceOptimization(amount, coins, n)
 
 
-    # TC: O(2^n)
+    # TC: O(2^n) (exponential)
     # SC: O(n) (recursion stack space)
 
     def solveUsingRecursion(self, ind, amount, coins):
