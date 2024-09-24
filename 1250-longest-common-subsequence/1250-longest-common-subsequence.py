@@ -5,8 +5,10 @@ class Solution:
         # return self.solveUsingRecursion(l1 -1, l2 - 1, text1, text2) # 0 based indexing
         # return self.solveUsingRecursion1(l1, l2, text1, text2) # 1 based indexing
         
-        dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
-        return self.solveUsingMemoization(l1, l2, text1, text2, dp) # 1 based indexing
+        # dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
+        # return self.solveUsingMemoization(l1, l2, text1, text2, dp) # 1 based indexing
+
+        return self.solveUsingTabulation(text1, text2, l1, l2)
 
 
 
@@ -58,6 +60,30 @@ class Solution:
             dp[ind1][ind2] = 0 + max(self.solveUsingMemoization(ind1 - 1, ind2, text1, text2, dp), self.solveUsingMemoization(ind1, ind2 - 1, text1, text2, dp))
 
         return dp[ind1][ind2]
+
+    def solveUsingTabulation(self, text1, text2, l1, l2):
+        dp = [[0 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
+
+        # Base Case
+        for ind2 in range(l2):
+            dp[0][ind2] = 0
+
+        for ind1 in range(l1):
+            dp[ind1][0] = 0
+
+        for ind1 in range(1, l1 + 1):
+            for ind2 in range(1, l2 + 1):
+                # Matching 
+                if text1[ind1 - 1] == text2[ind2 - 1]:
+                    dp[ind1][ind2] = 1 + dp[ind1 - 1][ind2 - 1] 
+                else:
+                    # Not Matching
+                    dp[ind1][ind2] = 0 + max(dp[ind1 - 1][ind2], dp[ind1][ind2 - 1])
+
+        return dp[l1][l2]
+
+
+
     
 
 
