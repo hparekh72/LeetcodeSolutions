@@ -405,6 +405,7 @@ A collection of LeetCode questions I have solved recently!
 | [0416-partition-equal-subset-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
@@ -423,6 +424,7 @@ A collection of LeetCode questions I have solved recently!
 | [0127-word-ladder](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0516-longest-palindromic-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
