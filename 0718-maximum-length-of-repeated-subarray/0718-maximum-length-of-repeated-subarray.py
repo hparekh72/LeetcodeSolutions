@@ -7,7 +7,8 @@ class Solution:
         l1 = len(nums1)
         l2 = len(nums2)
 
-        return self.solveUsingTabulation(nums1, nums2, l1, l2)
+        # return self.solveUsingTabulation(nums1, nums2, l1, l2)
+        return self.solveUsingSpaceOptimization(nums1, nums2, l1, l2)
 
     # TC: O(l1 * l2) 
     # SC: O(l1 * l2) 
@@ -32,6 +33,24 @@ class Solution:
         
         return maximumLength
 
+
+    # TC: O(l1 * l2) 
+    # SC: O(l2) 
+    def solveUsingSpaceOptimization(self, nums1, nums2, l1, l2):
+        prev = [0 for _ in range(l2 + 1)]
+
+        maximumLength = 0
+        for ind1 in range(1, l1 + 1):
+            curr = [0 for _ in range(l2 + 1)]
+            for ind2 in range(1, l2 + 1):
+                if nums1[ind1 - 1] == nums2[ind2 - 1]: # Matching
+                    curr[ind2] = 1 + prev[ind2 - 1]
+                    maximumLength = max(maximumLength, curr[ind2])
+                else:   # Not Matching
+                    curr[ind2] = 0
+            prev = curr
+
+        return maximumLength
         
 
         
