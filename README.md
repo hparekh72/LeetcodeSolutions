@@ -396,6 +396,7 @@ A collection of LeetCode questions I have solved recently!
 | [0063-unique-paths-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
@@ -424,6 +425,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
+| [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
