@@ -10,7 +10,11 @@ class Solution:
 
         # return self.solveUsingMemoization(l1, l2, s, t, dp) # 1-based indexing
 
-        return self.solveUsingTabulation(s, t, l1, l2)
+        # return self.solveUsingTabulation(s, t, l1, l2)
+
+        # return self.solveUsingSpaceOptimization1(s, t, l1, l2) # 2 Array Space Optimization
+        return self.solveUsingSpaceOptimization1(s, t, l1, l2) # 1 Array Space Optimization
+
 
 
 
@@ -97,4 +101,47 @@ class Solution:
 
 
         return dp[l1][l2]
+
+
+    # TC: O(l1 * l2) 
+    # SC: O(l2) 
+    def solveUsingSpaceOptimization1(self, s, t, l1, l2): # 2 Array Space Optimization
+        prev = [0 for _ in range(l2 + 1)] 
+
+        # Base Case
+        prev[0] = 1
+
+        for ind1 in range(1, l1 + 1):
+            curr = [0 for _ in range(l2 + 1)] 
+            curr[0] = 1
+            for ind2 in range(1, l2 + 1):
+                # If Matching Characters, 2 choices (Pick or Not pick)
+                if s[ind1 - 1] == t[ind2 - 1]: # 1-based indexing
+                    curr[ind2] = prev[ind2 - 1] + prev[ind2]      
+                else:
+                    # Not Matching Characters, cannot pick, move ind1
+                    curr[ind2] = prev[ind2] 
+
+            prev = curr
+
+        return prev[l2]  
+
+    # TC: O(l1 * l2) 
+    # SC: O(l2) 
+    def solveUsingSpaceOptimization2(self, s, t, l1, l2): # 1 Array Space Optimization
+        prev = [0 for _ in range(l2 + 1)] 
+
+        # Base Case
+        prev[0] = 1
+
+        for ind1 in range(1, l1 + 1):
+            for ind2 in range(l2, -1, -1):
+                # If Matching Characters, 2 choices (Pick or Not pick)
+                if s[ind1 - 1] == t[ind2 - 1]: # 1-based indexing
+                    prev[ind2] = prev[ind2 - 1] + prev[ind2]      
+                else:
+                    # Not Matching Characters, cannot pick, move ind1
+                    prev[ind2] = prev[ind2] 
+
+        return prev[l2]  
 
