@@ -6,9 +6,11 @@ class Solution:
 
         # return self.solveUsingRecursion1(l1, l2, s, t) # 1-based indexing
 
-        dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
+        # dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
 
-        return self.solveUsingMemoization(l1, l2, s, t, dp) # 1-based indexing
+        # return self.solveUsingMemoization(l1, l2, s, t, dp) # 1-based indexing
+
+        return self.solveUsingTabulation(s, t, l1, l2)
 
 
 
@@ -72,4 +74,27 @@ class Solution:
         return dp[ind1][ind2]
 
 
+    # TC: O(l1 * l2) 
+    # SC: O(l1 * l2) 
+    def solveUsingTabulation(self, s, t, l1, l2):
+        dp = [[0 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
+
+        # Base Case
+        for ind1 in range(l1 + 1):
+            dp[ind1][0] = 1
+
+        # for ind2 in range(1, l2 + 2):
+        #     dp[0][ind2] = 0
+
+        for ind1 in range(1, l1 + 1):
+            for ind2 in range(1, l2 + 1):
+                # If Matching Characters, 2 choices (Pick or Not pick)
+                if s[ind1 - 1] == t[ind2 - 1]: # 1-based indexing
+                    dp[ind1][ind2] = dp[ind1 - 1][ind2 - 1] + dp[ind1 - 1][ind2]      
+                else:
+                    # Not Matching Characters, cannot pick, move ind1
+                    dp[ind1][ind2] = dp[ind1 - 1][ind2] 
+
+
+        return dp[l1][l2]
 
