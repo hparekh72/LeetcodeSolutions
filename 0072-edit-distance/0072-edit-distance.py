@@ -5,9 +5,11 @@ class Solution:
         # return self.solveUsingRecursion(l1 - 1, l2 - 1, word1, word2) # 0-based indexing
         # return self.solveUsingRecursion1(l1, l2, word1, word2) # 1-based indexing
 
-        dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
+        # dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
 
-        return self.solveUsingMemoization(l1, l2, word1, word2, dp)
+        # return self.solveUsingMemoization(l1, l2, word1, word2, dp)
+
+        return self.solveUsingTabulation(word1, word2, l1, l2)
 
 
     # TC: O(3 ^ l1 * 3 ^ l2) (Exponential)
@@ -71,6 +73,10 @@ class Solution:
 
         return dp[ind1][ind2]
 
+
+
+    # TC: O(l1 * l2) 
+    # SC: O(l1 + l2) 
     def solveUsingTabulation(self, word1, word2, l1, l2):
         
         dp = [[0 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
