@@ -84,6 +84,7 @@ A collection of LeetCode questions I have solved recently!
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0120-triangle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0135-candy) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions I have solved recently!
 | [0072-edit-distance](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0120-triangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0198-house-robber) |
