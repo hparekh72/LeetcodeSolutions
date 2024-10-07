@@ -60,6 +60,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0203-remove-linked-list-elements) |
@@ -389,6 +390,7 @@ A collection of LeetCode questions I have solved recently!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
@@ -425,6 +427,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
@@ -536,6 +539,7 @@ A collection of LeetCode questions I have solved recently!
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0134-gas-station) |
