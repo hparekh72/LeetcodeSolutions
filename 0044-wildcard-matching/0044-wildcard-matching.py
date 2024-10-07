@@ -9,6 +9,8 @@ class Solution:
         dp = [[-1 for _ in range(l2 + 1)] for _ in range(l1 + 1)]
         return self.solveUsingMemoization(l1, l2, s, p, dp) # 1-based indexing
 
+        return self.solveUsingTabulation(s, p, l1, l2)
+
 
     # TC: O(Exponentil)
     # SC: O(l1 + l2) (recursion stack space)
@@ -85,6 +87,45 @@ class Solution:
             dp[ind1][ind2] = False
 
         return dp[ind1][ind2]
+
+
+
+    # TC: O(l1 * l2)
+    # SC: O(l1 * l2) 
+    def solveUsingTabulation(self, s, p, l1, l2):
+        # Base Case
+        dp = [[False for _ in range(l2 + 1)] for _ in range(l1 + 1)]
+
+        dp[0][0] = True
+
+        # for ind1 in range(1, l1 + 1):
+        #     dp[ind1][0] = False
+
+        for ind2 in range(ind2 + 1):
+            flag = True
+            for i in range(1, ind2 + 1):
+                if p[i - 1] != "*":
+                    flag = False
+                    break
+            dp[0][ind2] = flag
+
+        for ind1 in range(1, l1 + 1):
+            for ind2 in range(1, l2 + 1):
+                # Matching Character or ?
+                if s[ind1 - 1] == p[ind2 - 1] or p[ind2 - 1] == '?':
+                    dp[ind1][ind2] = dp[ind1 - 1][ind2 - 1] 
+                elif p[ind2 - 1] == "*": # For *
+                    # When * is consider as empty "" or when * is considered as one or more character 
+                    dp[ind1][ind2] = dp[ind1][ind2 - 1] or dp[ind1 - 1][ind2] 
+                else: # When characters does not match
+                    dp[ind1][ind2] = False
+
+                return dp[ind1][ind2]
+
+
+        
+
+
 
         
         
