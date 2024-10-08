@@ -52,3 +52,27 @@ class Solution:
                 self.solveUsingMemoization(ind + 1, 0, prices, dp))         
         dp[ind][buy] = profit
         return dp[ind][buy]
+
+
+
+    # TC: O(n * 2)
+    # SC: O(n * 2) 
+    def solveUsingTabulation(self, prices):
+        pass
+        n = len(prices)
+        dp = [[0 for _ in range(2)] for _ in range(n + 2)]
+
+        # Base Case
+        dp[n][0] = dp[n][1] = 0
+
+        for ind in range(n-1, -1, -1):
+            for buy in range(2):
+                # Buy
+                profit = 0
+                if buy: # Buy: 2 choices(Can buy, Cannot buy)
+                    profit = max(-prices[ind] + dp[ind + 1][0], 0 + dp[ind + 1][1])
+                else: # Sell: 2 choices (Can sell, Cannot sell)
+                    profit = max(prices[ind] + dp[ind + 2][1], 0 + dp[ind + 1][0])
+
+                dp[ind][buy] = profit
+        return dp[0][1] 
