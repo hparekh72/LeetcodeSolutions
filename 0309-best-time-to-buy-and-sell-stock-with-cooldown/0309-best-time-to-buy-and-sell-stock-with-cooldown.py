@@ -2,9 +2,11 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # return self.solveUsingRecursion(0, 1, prices)
 
-        n = len(prices)
-        dp = [[-1 for _ in range(2)] for _ in range(n)]
-        return self.solveUsingMemoization(0, 1, prices, dp)
+        # n = len(prices)
+        # dp = [[-1 for _ in range(2)] for _ in range(n)]
+        # return self.solveUsingMemoization(0, 1, prices, dp)
+
+        return self.solveUsingTabulation(prices)
 
 
     # TC: O(2^n)
