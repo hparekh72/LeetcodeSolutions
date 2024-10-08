@@ -6,8 +6,8 @@ class Solution:
         # dp = [[[-1 for _ in range(k+1)] for _ in range(2)] for _ in range(n)]
         # return self.solveUsingMemoization(0, 1, k, prices, dp)
 
-        return self.solveUsingTabulation(prices, k)
-        # return self.solveUsingSpaceOptimization(prices, k) 
+        # return self.solveUsingTabulation(prices, k)
+        return self.solveUsingSpaceOptimization(prices, k) 
 
         # Buy = 1 -> Can Buy,
     # Buy = 0 -> Cannot Buy
@@ -82,4 +82,34 @@ class Solution:
 
                     dp[ind][buy][capacity] = profit
         return dp[0][1][k]
+
+
+    # TC: O(n * 2 * k)
+    # SC: O(2 * k) 
+
+    def solveUsingSpaceOptimization(self, prices, k):
+        n = len(prices)
+        capacity = k
+        front = [[0 for _ in range(k + 1)] for _ in range(2)]
+
+        # The base case is already covered as the DP array is initialized to 0
+
+        for ind in range(n - 1, -1, -1):
+            curr = [[0 for _ in range(k + 1)] for _ in range(2)]
+            for buy in range(2):
+                for capacity in range(1, k + 1):
+                    profit = 0
+                    if buy:
+                        # Buy: (2 choices: Can buy, Cannot buy)
+                        profit = max(-prices[ind] + front[0][capacity], 0 + front[1][capacity])
+                    else:
+                        # Sell: (2 choices: Can sell, Cannot sell)
+                        profit = max(prices[ind] + front[1][capacity - 1], 0 + front[0][capacity])
+                    curr[buy][capacity] = profit
+                    
+            front = curr
+        return front[1][k]  
+
+
+
 
