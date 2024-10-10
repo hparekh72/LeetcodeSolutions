@@ -2,18 +2,23 @@ class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # return self.solveUsingRecursion(0, 1, 2, prices)
 
-        # n = len(prices)
+        n = len(prices)
         # dp = [[[-1 for _ in range(3)] for _ in range(2)] for _ in range(n)]
         # return self.solveUsingMemoization(0, 1, 2, prices, dp)
 
         # return self.solveUsingTabulation(prices)
-        return self.solveUsingSpaceOptimization(prices)
+        # return self.solveUsingSpaceOptimization(prices)
+
+        # Approach 2
+        # return self.solveUsingRecursion2(0, 0, prices)
+
+        dp = [[-1 for _ in range(4)] for _ in range(n)]
+        return self.solveUsingMemoization2(0, 0, prices, dp)
 
 
 
     # Buy = 1 -> Can Buy,
     # Buy = 0 -> Cannot Buy
-
 
     # TC: O(2^n)
     # SC: O(n) (recursion stack space)
@@ -113,6 +118,42 @@ class Solution:
                     
             front = curr
         return front[1][2]  
+
+    # Approach 2:
+    # Transactions: 0, 1, 2, 3 (0 and 2 represents "buy", 1 and 3 repreents "sell")
+    # TC: O(2^n) (exponential)
+    # SC: O(n) (recursion stack space)
+    def solveUsingRecursion2(self, ind, transaction, prices):
+        if ind == len(prices) or transaction == 4:
+            return 0
+
+        profit = 0
+        if transaction % 2 == 0: # Buy (2 choices: Can buy, Cannot buy)
+            profit = max(-prices[ind] + self.solveUsingRecursion2(ind + 1, transaction + 1, prices), 0 + self.solveUsingRecursion2(ind + 1, transaction, prices))
+        else: # Sell (2 choices: Can Sell, Cannot Sell)
+            profit = max(prices[ind] + self.solveUsingRecursion2(ind + 1, transaction + 1, prices), self.solveUsingRecursion2(ind + 1, transaction, prices))
+
+        return profit
+
+    # TC: O(n * 4)
+    # SC: O(n * 4) + O(n) (recursion stack space)
+    def solveUsingMemoization2(self, ind, transaction, prices, dp):
+        if ind == len(prices) or transaction == 4:
+            return 0
+
+        if dp[ind][transaction] != -1:
+            return dp[ind][transaction]
+
+        profit = 0
+        if transaction % 2 == 0: # Buy (2 choices: Can buy, Cannot buy)
+            profit = max(-prices[ind] + self.solveUsingMemoization2(ind + 1, transaction + 1, prices, dp), 0 + self.solveUsingMemoization2(ind + 1, transaction, prices, dp))
+        else: # Sell (2 choices: Can Sell, Cannot Sell)
+            profit = max(prices[ind] + self.solveUsingMemoization2(ind + 1, transaction + 1, prices, dp), self.solveUsingMemoization2(ind + 1, transaction, prices, dp))
+
+        dp[ind][transaction] = profit
+        return dp[ind][transaction]
+
+
         
 
 
