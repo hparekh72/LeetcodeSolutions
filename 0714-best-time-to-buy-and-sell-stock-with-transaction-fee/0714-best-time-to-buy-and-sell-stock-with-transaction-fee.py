@@ -6,7 +6,8 @@ class Solution:
         # dp = [[-1 for _ in range(2)] for _ in range(n)]
         # return self.solveUsingMemoization(0, 1, prices, fee, dp)
 
-        return self.solveUsingTabulation(prices, fee)
+        # return self.solveUsingTabulation(prices, fee)
+        return self.solveUsingSpaceOptimization(prices, fee)
 
     # Buy -> 1
     # Cannot Buy -> 0
@@ -57,7 +58,7 @@ class Solution:
     # SC: O(n * 2) 
     def solveUsingTabulation(self, prices, fee):
         n = len(prices)
-        dp = [[-1 for _ in range(2)] for _ in range(n + 1)]
+        dp = [[0 for _ in range(2)] for _ in range(n + 1)]
 
         # Base Case
         dp[n][0] = dp[n][1] = 0
@@ -75,6 +76,32 @@ class Solution:
                 dp[ind][buy] = profit 
 
         return dp[0][1] 
+
+
+    # TC: O(n * 2)
+    # SC: O(2) 
+    def solveUsingSpaceOptimization(self, prices, fee):
+        n = len(prices)
+        front = [0 for _ in range(2)] 
+
+        # Base Case
+        # front[0] = front[1] = 0  (Not required)
+
+        for ind in range(n - 1, -1, -1):
+            curr = [-1 for _ in range(2)] 
+            for buy in range(2):
+                profit = 0 
+                if buy:
+                    # Buy: 2 choices (Can Buy, Cannot Buy)
+                    profit = max(-prices[ind] + front[0],  front[1])
+                else:
+                    # Sell: 2 choices (Can Sell, Cannot Sell)
+                    profit = max(prices[ind] - fee + front[1], front[0])
+                
+                curr[buy] = profit 
+            front = curr
+
+        return front[1]       
 
 
         
