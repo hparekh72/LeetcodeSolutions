@@ -14,7 +14,9 @@ class Solution:
         # return self.solveUsingMemoization(0, -1, nums, dp)
 
         # return self.solveUsingTabulation(nums)
-        return self.solveUsingSpaceOptimization(nums)
+        # return self.solveUsingSpaceOptimization(nums)
+
+        return self.solveLIS(nums)
     
     # TC: O(2^n) 
     # SC: O(n) (recursion stack space)
@@ -104,6 +106,23 @@ class Solution:
             front = curr
         
         return front[-1 + 1] 
+
+
+    # TC: O(n * n)
+    # SC: O(n)
+    def solveLIS(self, nums):
+        n = len(nums)
+        dp = [1 for _ in range(n)]
+        lengthOfLIS = 0
+
+        for ind in range(n):
+            for prev_ind in range(ind):
+                if nums[prev_ind] < nums[ind]:
+                    dp[ind] = max(dp[ind], 1 + dp[prev_ind])
+            lengthOfLIS = max(lengthOfLIS, dp[ind])
+
+        return lengthOfLIS
+            
 
 
 
