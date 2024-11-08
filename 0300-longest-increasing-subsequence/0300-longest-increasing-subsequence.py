@@ -16,7 +16,8 @@ class Solution:
         # return self.solveUsingTabulation(nums)
         # return self.solveUsingSpaceOptimization(nums)
 
-        return self.solveLIS(nums)
+        # return self.solveLIS(nums)
+        return self.printLIS(nums)
     
     # TC: O(2^n) 
     # SC: O(n) (recursion stack space)
@@ -123,7 +124,44 @@ class Solution:
 
         return lengthOfLIS
             
+    # Print the LIS
+    # TC: O(n * n) + O(n) (printing the list)
+    # SC: O(n) + O(n) ~ O(n)
+    def printLIS(self, nums):
+        n = len(nums)
+        dp = [1 for _ in range(n)]
+        hashArr = []
+        
+        lengthOfLIS = 0
+        lastIndex = 0
 
+        for ind in range(n):
+            hashArr.append(ind)
+            for prev_ind in range(ind):
+                if nums[prev_ind] < nums[ind] and (1 + dp[prev_ind]) > dp[ind]:
+                    dp[ind] = 1 + dp[prev_ind]
+                    hashArr[ind] = prev_ind
+            if dp[ind] > lengthOfLIS:
+                lengthOfLIS = dp[ind]
+                lastIndex = ind
+
+        res = []
+        res.append(nums[lastIndex])
+
+        while hashArr[lastIndex] != lastIndex:
+            lastIndex = hashArr[lastIndex]
+            res.append(nums[lastIndex])
+
+        res.reverse()
+        # print(res)
+
+        return lengthOfLIS
+
+        
+        
+
+
+        
 
 
 
