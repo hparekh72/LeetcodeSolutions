@@ -17,7 +17,9 @@ class Solution:
         # return self.solveUsingSpaceOptimization(nums)
 
         # return self.solveLIS(nums)
-        return self.printLIS(nums)
+        # return self.printLIS(nums)
+
+        return self.lengthOfLISUingBS(nums)
     
     # TC: O(2^n) 
     # SC: O(n) (recursion stack space)
@@ -147,6 +149,8 @@ class Solution:
 
         res = []
         res.append(nums[lastIndex])
+        
+        # Backtrack                                   
 
         while hashArr[lastIndex] != lastIndex:
             lastIndex = hashArr[lastIndex]
@@ -157,9 +161,40 @@ class Solution:
 
         return lengthOfLIS
 
-        
-        
 
+    # Binary Search Approach
+    # 1. Find nums[ind] (if possible) OR 2. Find first element grater than nums[ind] (lower bound in C++ and bisect_left in Python)
+
+    # Binary Search (Simplified explanation)
+    # If at that number or at first element after that number
+    # eg: num = 4
+    # If at number 4(if present) or at first element after 4
+
+    # TC: O(nlogn)
+    # SC: O(n)
+    def lengthOfLISUingBS(self, nums):
+        n = len(nums)
+        temp = [] # Initialize temp list to store the increasing subsequence
+        lengthOfLIS = 0
+
+        for num in nums:
+            # If num is greater than the last element in temp, append it
+            if len(temp) == 0 or num > temp[-1]:
+                temp.append(num)
+                lengthOfLIS += 1
+            else:
+                # Find the index to replace in temp (like lower_bound in C++)
+                index = bisect.bisect_left(temp, num)
+                temp[index] = num
+
+        return lengthOfLIS
+
+
+
+
+        
+        
+ 
 
         
 
