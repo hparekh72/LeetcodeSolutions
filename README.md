@@ -35,6 +35,7 @@ A collection of LeetCode questions I have solved recently!
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions I have solved recently!
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0040-combination-sum-ii) |
