@@ -45,6 +45,7 @@ A collection of LeetCode questions I have solved recently!
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions I have solved recently!
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0368-largest-divisible-subset) |
@@ -454,6 +456,7 @@ A collection of LeetCode questions I have solved recently!
 | [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0516-longest-palindromic-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0516-longest-palindromic-subsequence) |
 | [0572-subtree-of-another-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0572-subtree-of-another-tree) |
