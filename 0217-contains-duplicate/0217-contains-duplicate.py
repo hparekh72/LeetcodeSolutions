@@ -4,8 +4,10 @@ class Solution:
     # SC: O(n)
 
     def containsDuplicate(self, nums: List[int]) -> bool:
-        hashSet = set(nums)
-        if len(hashSet) == len(nums):
-            return False
-        else:
-            return True
+        seen = set()
+        for num in nums:
+            if num in seen:
+                return True
+            else:
+                seen.add(num)
+        return False
