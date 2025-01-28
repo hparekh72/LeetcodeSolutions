@@ -38,6 +38,7 @@ A collection of LeetCode questions I have solved recently!
 | [0001-two-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
+| [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0127-word-ladder) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions I have solved recently!
 | [0040-combination-sum-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0055-jump-game) |
@@ -202,6 +204,7 @@ A collection of LeetCode questions I have solved recently!
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -453,6 +456,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
+| [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
