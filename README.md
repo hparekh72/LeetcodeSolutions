@@ -26,6 +26,7 @@ A collection of LeetCode questions I have solved recently!
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions I have solved recently!
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0135-candy) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
@@ -149,6 +151,7 @@ A collection of LeetCode questions I have solved recently!
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
