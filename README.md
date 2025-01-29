@@ -21,6 +21,7 @@ A collection of LeetCode questions I have solved recently!
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0001-two-sum) |
+| [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0039-combination-sum) |
@@ -213,6 +215,7 @@ A collection of LeetCode questions I have solved recently!
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
