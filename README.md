@@ -102,6 +102,7 @@ A collection of LeetCode questions I have solved recently!
 | [0213-house-robber-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
+| [0238-product-of-array-except-self](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0238-product-of-array-except-self) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -659,4 +660,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
