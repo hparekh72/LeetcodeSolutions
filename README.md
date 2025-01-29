@@ -22,6 +22,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
+| [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
@@ -465,6 +466,7 @@ A collection of LeetCode questions I have solved recently!
 | [0072-edit-distance](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0115-distinct-subsequences) |
+| [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
