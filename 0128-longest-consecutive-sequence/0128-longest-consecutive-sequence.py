@@ -40,5 +40,31 @@ class Solution:
             res = max(res, streak)
         
         return res
+
+    def longestConsecutive(self, nums: List[int]) -> int: # HashSet
+
+        # TC: O(n)
+        # SC: O(n)
+        n = len(nums)
+        if n == 0:
+            return 0
+
+        hashSet = set(nums)
+
+        longest = 1
+        for element in hashSet:
+            prev = element - 1
+            count = 1
+            if prev not in hashSet:
+                while element + 1 in hashSet:
+                    element += 1
+                    count += 1
+                longest = max(count, longest)
+
+        return longest
+
+
+
+
         
         
