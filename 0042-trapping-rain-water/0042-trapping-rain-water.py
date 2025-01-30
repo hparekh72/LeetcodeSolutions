@@ -48,13 +48,19 @@ class Solution:
         while l < r:
             if leftMax < rightMax:
                 l += 1
-                res += max(leftMax - height[l], 0)
+                # res += max(leftMax - height[l], 0)
+                # leftMax = max(leftMax, height[l])
+
                 leftMax = max(leftMax, height[l])
+                res += leftMax - height[l]
 
             else:
                 r -= 1
-                res += max(rightMax - height[r], 0)
+                # res += max(rightMax - height[r], 0)
+                # rightMax = max(rightMax, height[r])
+
                 rightMax = max(rightMax, height[r])
+                res += rightMax - height[r]
 
         return res
             
