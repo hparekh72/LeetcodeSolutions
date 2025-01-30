@@ -41,6 +41,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
@@ -472,6 +473,7 @@ A collection of LeetCode questions I have solved recently!
 ## String Matching
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
@@ -582,6 +584,7 @@ A collection of LeetCode questions I have solved recently!
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 ## Geometry
