@@ -23,6 +23,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0011-container-with-most-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions I have solved recently!
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0040-combination-sum-ii) |
+| [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0049-group-anagrams) |
@@ -174,6 +176,7 @@ A collection of LeetCode questions I have solved recently!
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0173-binary-search-tree-iterator](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0173-binary-search-tree-iterator) |
@@ -424,6 +427,7 @@ A collection of LeetCode questions I have solved recently!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
@@ -510,6 +514,7 @@ A collection of LeetCode questions I have solved recently!
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Iterator
 |  |
