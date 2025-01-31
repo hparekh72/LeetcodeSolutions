@@ -186,6 +186,7 @@ A collection of LeetCode questions I have solved recently!
 | [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
+| [0155-min-stack](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0173-binary-search-tree-iterator) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
