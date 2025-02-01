@@ -100,6 +100,7 @@ A collection of LeetCode questions I have solved recently!
 | [0056-merge-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0084-largest-rectangle-in-histogram) |
@@ -166,6 +167,7 @@ A collection of LeetCode questions I have solved recently!
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0222-count-complete-tree-nodes) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
@@ -567,6 +569,7 @@ A collection of LeetCode questions I have solved recently!
 | [0037-sudoku-solver](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0037-sudoku-solver) |
 | [0063-unique-paths-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0064-minimum-path-sum) |
+| [0074-search-a-2d-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
