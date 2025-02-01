@@ -150,6 +150,7 @@ A collection of LeetCode questions I have solved recently!
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0890-lemonade-change) |
+| [0907-koko-eating-bananas](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0907-koko-eating-bananas) |
 | [0967-minimum-falling-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0967-minimum-falling-path-sum) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1036-rotting-oranges) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions I have solved recently!
 | [0718-maximum-length-of-repeated-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0792-binary-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
+| [0907-koko-eating-bananas](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0907-koko-eating-bananas) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Bit Manipulation
