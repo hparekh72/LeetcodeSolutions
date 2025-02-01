@@ -144,6 +144,7 @@ A collection of LeetCode questions I have solved recently!
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
@@ -171,6 +172,7 @@ A collection of LeetCode questions I have solved recently!
 | [0300-longest-increasing-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0658-find-k-closest-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0658-find-k-closest-elements) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0792-binary-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
