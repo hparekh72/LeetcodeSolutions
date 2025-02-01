@@ -142,6 +142,7 @@ A collection of LeetCode questions I have solved recently!
 | [0718-maximum-length-of-repeated-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
+| [0739-daily-temperatures](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0739-daily-temperatures) |
 | [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions I have solved recently!
 | [0155-min-stack](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0173-binary-search-tree-iterator) |
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
+| [0739-daily-temperatures](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0739-daily-temperatures) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Divide and Conquer
@@ -532,6 +534,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0739-daily-temperatures) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Iterator
 |  |
