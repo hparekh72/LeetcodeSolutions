@@ -85,6 +85,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0033-search-in-rotated-sorted-array) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions I have solved recently!
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -208,6 +210,7 @@ A collection of LeetCode questions I have solved recently!
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
