@@ -69,6 +69,7 @@ A collection of LeetCode questions I have solved recently!
 | [0876-hand-of-straights](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0876-hand-of-straights) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
+| [1023-time-based-key-value-store](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1023-time-based-key-value-store) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 ## Recursion
@@ -180,6 +181,7 @@ A collection of LeetCode questions I have solved recently!
 | [0792-binary-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0907-koko-eating-bananas](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1023-time-based-key-value-store) |
 | [1753-path-with-minimum-effort](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1753-path-with-minimum-effort) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1977-minimum-interval-to-include-each-query) |
 ## Bit Manipulation
@@ -271,6 +273,7 @@ A collection of LeetCode questions I have solved recently!
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1023-time-based-key-value-store](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1023-time-based-key-value-store) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 ## Doubly-Linked List
 |  |
@@ -518,6 +521,7 @@ A collection of LeetCode questions I have solved recently!
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0768-partition-labels) |
+| [1023-time-based-key-value-store](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1023-time-based-key-value-store) |
 | [1170-shortest-common-supersequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
