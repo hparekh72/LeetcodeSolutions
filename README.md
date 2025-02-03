@@ -10,6 +10,7 @@ A collection of LeetCode questions I have solved recently!
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0141-linked-list-cycle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions I have solved recently!
 | [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
+| [0141-linked-list-cycle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
@@ -55,6 +57,7 @@ A collection of LeetCode questions I have solved recently!
 | [0128-longest-consecutive-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0141-linked-list-cycle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
