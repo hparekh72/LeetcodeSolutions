@@ -5,8 +5,7 @@
 #         self.next = None
 
 class Solution:
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
-        # Brute Force
+    # def hasCycle(self, head: Optional[ListNode]) -> bool: # Brute Force
         # TC: O(N)
         # SC: O(N)
 
@@ -20,24 +19,20 @@ class Solution:
 
         # return False
 
-        # Optimal: Slow and Fast pointer
-        # TC: O(N)
-        # SC: O(1)
+        def hasCycle(self, head: Optional[ListNode]) -> bool: # Slow and Fast pointer(Optimal)
+            
+            # TC: O(N)
+            # SC: O(1)
 
-        slow = head
-        fast = head
+            slow, fast = head, head
 
-        while fast != None and fast.next != None:
-            slow = slow.next
-            fast = fast.next.next
+            while fast and fast.next:
+                slow = slow.next
+                fast = fast.next.next
 
-            if slow == fast:
-                return True
-        
-        return False
-
-
+                if slow == fast:
+                    return True
+            
+            return False
 
 
-
-        
