@@ -4,6 +4,7 @@ A collection of LeetCode questions I have solved recently!
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions I have solved recently!
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
@@ -606,6 +608,7 @@ A collection of LeetCode questions I have solved recently!
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0002-add-two-numbers) |
 | [0060-permutation-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
