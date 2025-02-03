@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
+    # def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         # Brute Force
         #TC: O(2N)
         #SC: O(1)
@@ -41,23 +41,42 @@ class Solution:
         # TC: O(N)
         # SC: O(1)
 
-        fast = head
-        for i in range(n):
-            fast = fast.next
+        # fast = head
+        # for i in range(n):
+        #     fast = fast.next
 
-        if fast == None:
-            newHead = head.next
-            del head
-            return newHead
+        # if fast == None:
+        #     newHead = head.next
+        #     return newHead
 
-        slow = head
-        while fast.next != None:
-            slow = slow.next
-            fast = fast.next
+        # slow = head
+        # while fast.next != None:
+        #     slow = slow.next
+        #     fast = fast.next
 
-        deleteNode = slow.next
-        slow.next = slow.next.next
-        del deleteNode
-        return head
+        # slow.next = slow.next.next
+        # return head
 
-        
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]: # Two Pointers
+        # TC: O(n)
+        # SC: O(1)
+        dummy = ListNode(0, head)
+        left = dummy
+        right = head
+
+        while n > 0 and right:
+            right = right.next
+            n -= 1
+
+        while right:
+            left = left.next
+            right = right.next
+
+        # Delete
+        left.next = left.next.next
+
+        return dummy.next
+
+
+
+
