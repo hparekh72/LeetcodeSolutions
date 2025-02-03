@@ -15,6 +15,7 @@ A collection of LeetCode questions I have solved recently!
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0203-remove-linked-list-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0355-design-twitter) |
 | [1582-design-browser-history](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1582-design-browser-history) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions I have solved recently!
 | [0060-permutation-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0060-permutation-sequence) |
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0203-remove-linked-list-elements) |
+| [0206-reverse-linked-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0206-reverse-linked-list) |
 ## Array
 |  |
 | ------- |
