@@ -58,19 +58,20 @@ class Solution:
         dummyNode = ListNode()
         temp = dummyNode
 
-        while temp1 != None and temp2 != None:
-            if temp1.val < temp2.val:
+        while temp1 and temp2:
+            if temp1.val <= temp2.val:
                 temp.next = temp1
-                temp = temp1
                 temp1 = temp1.next
             else:
                 temp.next = temp2
-                temp = temp2
                 temp2 = temp2.next
+            temp = temp.next
 
-        if temp1 != None:   # Merge remaining from either of the list
+        if temp1:
             temp.next = temp1
-        else:
+        elif temp2:
             temp.next = temp2
 
-        return dummyNode.next 
+        return dummyNode.next
+        
+
