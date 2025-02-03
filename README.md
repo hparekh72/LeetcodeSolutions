@@ -4,6 +4,7 @@ A collection of LeetCode questions I have solved recently!
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0025-reverse-nodes-in-k-group) |
@@ -25,6 +26,7 @@ A collection of LeetCode questions I have solved recently!
 | ------- |
 | [0011-container-with-most-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0061-rotate-list) |
 | [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
