@@ -4,8 +4,8 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # Brute Force
+
+    # def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]: # Brute Force
         #TC: O(2N)
         #SC: O(N)
 
@@ -22,33 +22,38 @@ class Solution:
 
         # return head
 
-        # Optimal: Iterative
-        # TC: O(N)
-        # SC: O(1)
+    # def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]: # Iterative
+    #     # TC: O(n)
+    #     # SC: O(1)
 
-        # temp = head
-        # prev = None
+    #     prev, curr = None, head
 
-        # while temp != None:
-        #     nextNode = temp.next
-        #     temp.next = prev
-        #     prev = temp
-        #     temp = nextNode
+    #     while curr:
+    #         nextNode = curr.next
+    #         curr.next = prev
+    #         prev = curr
+    #         curr = nextNode
+
+    #     return prev
+
+        def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]: # Recursive
+            # TC: O(n)
+            # SC: O(n)
+
+            if head == None or head.next == None:   # Base Case
+                return head
+
+            newHead = self.reverseList(head.next)
+            nextNode = head.next
+            nextNode.next = head
+            head.next = None
+
+            return newHead
+
+
+
+
+
+
         
-        # return prev
-
-        # Optimal: Recursive
-        # TC: O(N)
-        # SC: O(N) (Recursive Stack Space)
-
-        if head == None or head.next == None:
-            return head
-
-        newHead = self.reverseList(head.next)
-        nextNode = head.next
-        nextNode.next = head
-        head.next = None
-
-        return newHead
-
         
