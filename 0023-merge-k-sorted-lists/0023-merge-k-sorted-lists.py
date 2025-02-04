@@ -3,9 +3,6 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
-import heapq
-
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         # Brute Force
@@ -38,28 +35,36 @@ class Solution:
         # TC: O(klogk) + O(n*k*logk)
         # SC: O(k)
 
-        pq = []
+        pq = [] # Min-Heap
 
         for index, head in enumerate(lists):
-            if head:                  # To handle Edge Case: [[]]
+            if head: # To handle edge case: [[]]
                 heapq.heappush(pq, (head.val, index, head)) # TC: O(logk)
 
-
-        dummyNode = ListNode() 
-        temp = dummyNode
+        dummyNode = ListNode()
+        temp = dummyNode    
         while pq:
             val, index, node = heapq.heappop(pq)
             temp.next = node
+
             nextNode = node.next
             if nextNode:
                 heapq.heappush(pq, (nextNode.val, index, nextNode)) # TC: O(logk)
-
+                
             temp = temp.next
 
         return dummyNode.next
 
         
+                    
 
 
 
-        
+
+
+
+
+
+
+
+
