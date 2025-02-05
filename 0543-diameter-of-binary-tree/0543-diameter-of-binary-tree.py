@@ -4,9 +4,10 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
-    maximum = 0
-    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+
+# class Solution:
+#     maximum = 0
+#     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         # Brute Force:
         # TC: O(N^2)
         # SC: O(N) + O(N)
@@ -18,20 +19,20 @@ class Solution:
         # TC: O(N)
         # SC: O(N) 
 
-        diameter = [0]
-        self.height(root, diameter)
-        return diameter[0]
+    #     diameter = [0]
+    #     self.height(root, diameter)
+    #     return diameter[0]
 
-    def height(self, root, diameter):
-        if root == None:
-            return 0
+    # def height(self, root, diameter):
+    #     if root == None:
+    #         return 0
 
-        leftTree = self.height(root.left, diameter)
-        rightTree = self.height(root.right, diameter)
+    #     leftTree = self.height(root.left, diameter)
+    #     rightTree = self.height(root.right, diameter)
 
-        diameter[0] = max(diameter[0], leftTree + rightTree)
+    #     diameter[0] = max(diameter[0], leftTree + rightTree)
 
-        return 1 + max(leftTree, rightTree)
+    #     return 1 + max(leftTree, rightTree)
 
 
     # def findDiameter(self, root):
@@ -55,9 +56,31 @@ class Solution:
     #     rightTree = self.findHeight(root.right)
 
     #     return 1 + max(leftTree, rightTree)
+
+
+
+# TC: O(n)
+# SC: O(n)
+
+class Solution:
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int: # DFS implementation
+        self.res = 0
+
+        def height(node, res): 
+            if not node:
+                return 0
+            
+            leftHeight = height(node.left, self.res)
+            rightHeight = height(node.right, self.res)
+
+            self.res = max(self.res, leftHeight + rightHeight)
+
+            return 1 + max(leftHeight, rightHeight)
+        
+        height(root, self.res)
+        return self.res
+
+
         
 
-    
 
-
-        
