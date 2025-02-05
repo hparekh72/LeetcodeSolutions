@@ -5,54 +5,42 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def maxDepth(self, root: Optional[TreeNode]) -> int:
-        # Level Order traversal
-        # TC: O(N)
-        # SC: O(N)
 
-        count = 0
+    # TC: O(n)
+    # SC: O(n)
 
-        if root == None:
-            return count
+    # def maxDepth(self, root: Optional[TreeNode]) -> int: # Recursive DFS approach
+    #     if not root:
+    #         return 0
 
-        queue = [root]
+    #     leftTree = self.maxDepth(root.left)
+    #     rightTree = self.maxDepth(root.right)
+
+    #     return 1 + max(leftTree, rightTree)
+
+    # Iterative Approaches
+
+    # TC: O(n)
+    # SC: O(n)
+    def maxDepth(self, root: Optional[TreeNode]) -> int: # BFS (Level Order Traversal)
+        if not root:
+            return 0
+
+        queue = deque([root])
+        level = 0
 
         while queue:
-
-            count += 1
-
-            for _ in range(len(queue)):
-            
-                node = queue.pop(0)
+            level_size = len(queue)
+            for _ in range(level_size):
+                node = queue.popleft()
                 if node.left:
                     queue.append(node.left)
-
                 if node.right:
                     queue.append(node.right)
+            level += 1
 
-        return count
-
-        # Recursion
-        # Space: Auxilary space of O(n) - Skew tree
-        # Time: O(n)
-
-        # if root == None:
-        #     return 0
-
-        # leftTree = self.maxDepth(root.left)
-        # rightTree = self.maxDepth(root.right)
-
-        # return 1 + max(leftTree, rightTree)
-
-            
+        return level
 
 
-                
 
-            
-
-
-        
-
-        
         
