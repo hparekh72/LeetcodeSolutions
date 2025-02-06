@@ -4,15 +4,19 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+# TC: O(n)
+# SC: O(n) (recursion stack space)
+
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-        # TC: O(N + N)
-        # SC: O(N + N)
-        if p == None or q == None:
-            return p == q
-        return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+        if not p and not q: # Each node of both the trees are null
+            return True
+        if not p or not q or p.val != q.val: 
+            return False
 
-            
-            
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+
+
 
         
