@@ -13,7 +13,7 @@ class Solution:
         # SC: O(N)
 
         # Optimal: Recursive
-        # Approach: When we cannot determine if both the nodes are on the left or right subtree, then that node is the point of intersection
+        # Approach/Logic: When we cannot determine if both the nodes are on the left or right subtree, then that node is the point of intersection
 
         # TC: O(Height of the Tree)
         # SC: O(Height of the Tree)
