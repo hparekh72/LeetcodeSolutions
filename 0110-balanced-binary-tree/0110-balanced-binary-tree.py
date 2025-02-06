@@ -4,30 +4,31 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+
+# TC: O(n)
+# SC: O(n) (Recursive Call Stack)
+
 class Solution:
-
-    # TC: O(N)
-    # SC: O(N) # Recursive call stack
-
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
-        if self.heightBalanced(root) == -1:
-            return False
-        else:
-            return True
 
-    def heightBalanced(self, root):
-        if root == None:
-            return 0
+        self.res = True
 
-        leftHeight = self.heightBalanced(root.left)
-        rightHeight = self.heightBalanced(root.right)
+        def height(node):
+            if not node:
+                return 0
 
-        if leftHeight == -1 or rightHeight == -1:
-            return -1
+            leftHeight = height(node.left)
+            rightHeight = height(node.right)
 
-        if abs(leftHeight - rightHeight) > 1:
-            return -1
+            if abs(rightHeight - leftHeight) > 1:
+                self.res = False
 
+            return 1 + max(leftHeight, rightHeight)
 
-        return 1 + max(leftHeight, rightHeight)
+        height(root)
+        return self.res
+
+            
+
         
