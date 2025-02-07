@@ -31,28 +31,29 @@
 
 
 class Solution:
-    def goodNodes(self, root: TreeNode) -> int:
+    def goodNodes(self, root: TreeNode) -> int: # Preorder Traversal (DFS)
         # TC: O(N)
         # SC: O(N)
-        if root == None:
-            return 
 
-        return self.countGoodNodes(root, root.val)
+        def countGoodNodes(node, max_value):
+            if not node:
+                return 0
+
+            res = 1 if node.val >= max_value else 0
+            max_value = max(max_value, node.val)
+
+            res += countGoodNodes(node.left, max_value)
+            res += countGoodNodes(node.right, max_value)
+
+            return res
+
+        return countGoodNodes(root, root.val)
+
+        
+
+
+            
+            
  
 
-    # Preorder Traversal (DFS)
-    def countGoodNodes(self, root, maximum):
-
-        if root == None:
-            return 0
-
-        if root.val >= maximum:
-            maximum = root.val
-            res = 1
-        else:
-            res = 0
-
-        res += self.countGoodNodes(root.left, maximum)
-        res += self.countGoodNodes(root.right, maximum)
-        return res
-        
+    
