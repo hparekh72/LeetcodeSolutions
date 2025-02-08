@@ -60,21 +60,36 @@
 # TC: O(N)
 # SC: O(N)
 
+# class Solution:
+#     def isValidBST(self, root: Optional[TreeNode]) -> bool:
+#         return self.helper(root, float('-inf'), float('inf'))
+        
+
+#     def helper(self, root, minValue, maxValue):
+#         if root == None:
+#             return True
+        
+#         if root.val >= maxValue or root.val <= minValue:
+#             return False
+
+#         return self.helper(root.left, minValue, root.val) and self.helper(root.right, root.val, maxValue)
+
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        return self.helper(root, float('-inf'), float('inf'))
-        
 
-    def helper(self, root, minValue, maxValue):
-        if root == None:
-            return True
-        
-        if root.val >= maxValue or root.val <= minValue:
-            return False
+        def valid(node, left, right):
+            if not node:
+                return True
 
-        return self.helper(root.left, minValue, root.val) and self.helper(root.right, root.val, maxValue)
+            if not (node.val < right and node.val > left):
+                return False
 
-        
+            return valid(node.left, left, node.val) and valid(node.right, node.val, right)
+
+        return valid(root, float('-inf'), float('inf'))
+
+    
+
 
 
 
