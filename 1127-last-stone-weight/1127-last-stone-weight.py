@@ -7,21 +7,22 @@ class Solution:
         # TC: O(nlogn)
         # SC: O(k)
 
-        heap = [-num for num in stones]  # Negate stones to simulate a max heap
+        maxHeap = [-stone for stone in stones] # Negate stones to simulate a max heap
 
         # Using heapify for efficient O(n) heap construction
-        heapq.heapify(heap)  # Now it behaves like a max heap due to negation
+        heapq.heapify(maxHeap)  # Now it behaves like a max heap due to negation
 
-        while len(heap) > 1: # TC: O(nlogn)
-            y = heapq.heappop(heap)
-            y = -y
-            x = heapq.heappop(heap)
-            x = -x
+        while len(maxHeap) > 1: # TC: O(nlogn)
+            y = -heapq.heappop(maxHeap)
+            x = -heapq.heappop(maxHeap)
 
             if x != y:
-                heapq.heappush(heap, -(y - x))
-        
-        heap.append(0) # To handle Edge Case: stones = [2,2]
-        return -heap[0]
-            
+                heapq.heappush(maxHeap, -(y - x))
+
+        maxHeap.append(0) # To handle Edge Case: stones = [2,2]
+        return -maxHeap[0]
+
+
+
+
         
