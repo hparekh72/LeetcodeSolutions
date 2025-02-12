@@ -5,7 +5,7 @@ class Solution:
 
         # Optimal: Max-Heap
         # TC: O(nlogn)
-        # SC: O(k)
+        # SC: O(n)
 
         maxHeap = [-stone for stone in stones] # Negate stones to simulate a max heap
 
