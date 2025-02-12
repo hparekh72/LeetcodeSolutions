@@ -6,12 +6,13 @@ class Solution:
         # TC: O(m * n) m-> len(tasks), n -> cooling time 
         # SC: O(m) 
 
-        countMap = Counter(tasks)
-        maxHeap = [-num for num in countMap.values()] # MaxHeap
-        heapq.heapify(maxHeap) # O(m)
+        count = Counter(tasks)
+        maxHeap = [-cnt for cnt in count.values()] # MaxHeap
+        heapq.heapify(maxHeap) # TC: O(m)
 
-        queue = deque() # pairs if [-num, idleTime]
         time = 0
+        queue = deque() # pairs of [-cnt, idleTime]
+
         while maxHeap or queue:
             time += 1
 
@@ -21,16 +22,11 @@ class Solution:
                     queue.append([count, time + n])
 
             if queue and queue[0][1] == time:
-                heapq.heappush(maxHeap, queue.popleft()[0])    
+                heapq.heappush(maxHeap, queue.popleft()[0])
 
         return time
 
 
 
 
-
-        
-
-
-
-        
+         
