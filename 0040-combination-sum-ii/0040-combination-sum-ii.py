@@ -1,8 +1,7 @@
 # Brute Force:
-# TC: O(2^n * k)
-# SC: O(n) + k * x
+# TC: O(nlogn) + O(2^n * k)
+# SC: O(n) (Recursion Stack Space) + O(2^n * k)
 # k -> Average length of k(ds)
-# x -> Number of combinations
 
 
 # class Solution:
@@ -29,12 +28,10 @@
 #         self.findCombinations(candidates, target, index + 1, ds, res)
 
 
-
 # Optimal: Another approach
 # TC: O(2^n * k)
-# SC: O(n) + k * x
+# SC: O(n) + O(2^n * k)
 # k -> Average length of k(ds)
-# x -> Number of combinations
 
 class Solution:
     def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
@@ -65,11 +62,9 @@ class Solution:
             self.findCombinations(candidates, target - candidates[i], i + 1, ds, res)
             ds.pop()  # Backtrack
 
+
         
-
-
-
-
+        
 
 
 
