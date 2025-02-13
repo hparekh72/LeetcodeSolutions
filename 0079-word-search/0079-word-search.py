@@ -1,6 +1,6 @@
 class Solution:
 
-    # TC: O(n * m * 4l(dfs)) 
+    # TC: O(n * m * 4^l(dfs)) 
     # Here, n * m are the board dimensions, l is the length of the word
 
     # SC: O(l) (recursive call stack) + O(l) (set)
@@ -40,5 +40,3 @@ class Solution:
 
         return False
 
-
-        
