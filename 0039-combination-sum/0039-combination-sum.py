@@ -12,7 +12,7 @@ class Solution:
         # Base Case
         if ind >= len(candidates):
             if target == 0:
-                res.append(ds.copy())
+                res.append(ds.copy())  # or res.append(list(ds))  # or res.append(ds[:])
             return 
 
         # Pick
