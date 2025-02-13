@@ -23,8 +23,8 @@ class Solution:
 
             # Recursively explore all four directions
             res = (
-                dfs(r+1, c, ind+1) or # Up
-                dfs(r-1, c, ind+1) or # Down
+                dfs(r+1, c, ind+1) or # Down
+                dfs(r-1, c, ind+1) or # Up
                 dfs(r, c-1, ind+1) or # Left
                 dfs(r, c+1, ind+1) # Right
             )
