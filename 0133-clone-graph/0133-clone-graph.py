@@ -10,7 +10,7 @@ class Node:
 
 #1. Use a hashmap to track originals to their clones. 
 #2. Traverse the original graph, visiting each node once, for each node just clone it's value without the neighbors.
-#3. Traverse the original graph again, visiting each node once, for each node find it''s clone and set the original's neighbors clones as the clone's neighbors.
+#3. Traverse the original graph again , visiting each node once, for each node find it''s clone and set the original's neighbors clones as the clone's neighbors.
 #4. return oldToNew[node]
 
 # Approach 2: Optimal:
@@ -39,6 +39,8 @@ from typing import Optional
 #             return dfs(node)
 #         else:
 #             return None
+
+
 
 class Solution:
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
