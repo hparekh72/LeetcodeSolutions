@@ -43,6 +43,3 @@ class Solution:
                     maxCount = max(maxCount, self.dfs(r, c, grid, visited, rows, cols))
         
         return maxCount
-
-        
-        
