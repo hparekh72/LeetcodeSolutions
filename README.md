@@ -136,6 +136,7 @@ A collection of LeetCode questions I have solved recently!
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0239-sliding-window-maximum) |
+| [0286-walls-and-gates](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions I have solved recently!
 | [0207-course-schedule](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0226-invert-binary-tree) |
+| [0286-walls-and-gates](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0286-walls-and-gates) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0322-coin-change](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0322-coin-change) |
 | [0417-pacific-atlantic-water-flow](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -594,6 +596,7 @@ A collection of LeetCode questions I have solved recently!
 | [0079-word-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0200-number-of-islands) |
+| [0286-walls-and-gates](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0695-max-area-of-island) |
