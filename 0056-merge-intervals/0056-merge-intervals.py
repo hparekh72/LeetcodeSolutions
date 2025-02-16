@@ -9,21 +9,14 @@
 #  Optimal:
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
-
         intervals.sort()
+        output = [intervals[0]]
 
-        res = []
-        previousInterval = intervals[0]
+        for start, end in intervals:
+            lastEnd = output[-1][1]
 
-        for i in range(1, len(intervals)):
-            if previousInterval[1] >= intervals[i][0]:
-                previousInterval[1] = max(previousInterval[1], intervals[i][1])
+            if start <= lastEnd:
+                output[-1][1] = max(lastEnd, end)
             else:
-                res.append(previousInterval)
-                previousInterval = intervals[i]
-        
-        res.append(previousInterval)
-
-        return res
-
-        
+                output.append([start, end])
+        return output
