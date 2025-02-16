@@ -36,6 +36,7 @@ A collection of LeetCode questions I have solved recently!
 | [0143-reorder-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0148-sort-list) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0253-meeting-rooms-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions I have solved recently!
 | [0238-product-of-array-except-self](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0239-sliding-window-maximum) |
 | [0252-meeting-rooms](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0286-walls-and-gates](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
@@ -237,6 +239,7 @@ A collection of LeetCode questions I have solved recently!
 | [0023-merge-k-sorted-lists](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0355-design-twitter) |
@@ -266,6 +269,7 @@ A collection of LeetCode questions I have solved recently!
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0368-largest-divisible-subset) |
@@ -660,6 +664,7 @@ A collection of LeetCode questions I have solved recently!
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0135-candy) |
+| [0253-meeting-rooms-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 | [0435-non-overlapping-intervals](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0621-task-scheduler) |
@@ -748,6 +753,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0253-meeting-rooms-ii) |
 ## Queue
 |  |
 | ------- |
