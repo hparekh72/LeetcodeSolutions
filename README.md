@@ -137,6 +137,7 @@ A collection of LeetCode questions I have solved recently!
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0239-sliding-window-maximum) |
+| [0252-meeting-rooms](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0286-walls-and-gates](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0286-walls-and-gates) |
 | [0287-find-the-duplicate-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0300-longest-increasing-subsequence) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions I have solved recently!
 | [0215-kth-largest-element-in-an-array](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
+| [0252-meeting-rooms](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0252-meeting-rooms) |
 | [0295-find-median-from-data-stream](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0368-largest-divisible-subset) |
