@@ -1,76 +1,46 @@
 class Solution:
-    # def climbStairs(self, n: int) -> int: # Recursion
+    def climbStairs(self, n: int) -> int:
+        dp = [-1 for _ in range(n + 1)]
+        # return self.solveUsingMemoization(n, dp)
+        # return self.solveUsingTabulation(n, dp)
+        return self.solveUsingSpaceOptimization(n)
 
-    #     # TC: O(2^n)
-    #     # SC: O(n)
+
+    
+    # TC: O(n) 
+    # SC: O(n) (dp array and recursion stack space)
+    def solveUsingMemoization(self, n, dp):
+        if n <= 1:
+            return 1
         
-    #     # Base Case 
-    #     if n < 0:
-    #         return 0
-
-    #     if n == 0:
-    #         return 1 
-
-    #     return self.climbStairs(n - 1) + self.climbStairs(n - 2)
-
-        def climbStairs(self, n: int) -> int: # Memoization
-            dp = [-1 for _ in range(n + 1)]
-            # return self.solveUsingMemoization(n, dp)
-            # return self.solveUsingTabulation(n, dp)
-            return self.spaceOptimized(n)
-
-        def solveUsingMemoization(self, n, dp):
-            if n <= 1:
-                return 1
-            
-            if dp[n] != -1:
-                return dp[n]
-
-            dp[n] = self.solveUsingMemoization(n - 1, dp) + self.solveUsingMemoization(n - 2, dp)
+        if dp[n] != -1:
             return dp[n]
 
-        def solveUsingTabulation(self, n, dp):
-            dp[0] = 1
-            dp[1] = 1
+        dp[n] = self.solveUsingMemoization(n - 1, dp) + self.solveUsingMemoization(n - 2, dp)
+        return dp[n]
 
-            for i in range(2, n + 1):
-                dp[i] = dp[i - 1] + dp[i - 2]
+    # TC: O(n) 
+    # SC: O(n) (dp array)
+    def solveUsingTabulation(self, n, dp):
+        dp[0], dp[1] = 1, 1
 
-            return dp[n]
+        for i in range(2, n + 1):
+            dp[i] = dp[i - 1] + dp[i - 2]
 
-        def spaceOptimized(self, n):
-            prev2 = 1
-            prev = 1
+        return dp[n]
 
-            curr = prev
-            for i in range(2, n + 1):
-                curr = prev + prev2
-                prev2 = prev
-                prev = curr
-            
-            return curr
-                
-
-
+    def solveUsingSpaceOptimization(self, n):
+        prev2 = 1
+        prev = 1
         
+        curr = prev
+        for i in range(2, n + 1):
+            curr = prev + prev2
+            prev2 = prev
+            prev = curr
 
-
-
+        return curr
             
-
-
-
-        
-
-        
-
-
-
-
-
- 
-            
-
 
 
 
