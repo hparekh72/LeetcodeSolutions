@@ -162,6 +162,7 @@ A collection of LeetCode questions I have solved recently!
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0792-binary-search) |
 | [0794-swim-in-rising-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0854-making-a-large-island) |
@@ -509,6 +510,7 @@ A collection of LeetCode questions I have solved recently!
 | [0678-valid-parenthesis-string](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0718-maximum-length-of-repeated-subarray) |
+| [0747-min-cost-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0967-minimum-falling-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0967-minimum-falling-path-sum) |
 | [1170-shortest-common-supersequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1170-shortest-common-supersequence) |
