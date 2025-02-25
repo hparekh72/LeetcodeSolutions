@@ -25,6 +25,7 @@ A collection of LeetCode questions I have solved recently!
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0019-remove-nth-node-from-end-of-list) |
@@ -475,6 +476,7 @@ A collection of LeetCode questions I have solved recently!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0044-wildcard-matching) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0022-generate-parentheses) |
