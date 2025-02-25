@@ -25,7 +25,7 @@
 
 #         return True
 
-# Intuition
+# Intuition: Two Pointers (we expand around each character as a center)
 # Instead of using a DP table, we expand around each character as a center:
 
 # A palindrome is symmetric, meaning it expands equally outward.
@@ -36,8 +36,8 @@
 
 # TC: O(n^2)
 # SC: O(1)
-class Solution:
-    def longestPalindrome(self, s: str) -> str:
+class Solution: 
+    def longestPalindrome(self, s: str) -> str: # Two Pointers
         resLen = 0
         res = ""
         for i in range(len(s)):
