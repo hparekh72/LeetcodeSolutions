@@ -1,45 +1,50 @@
 class Solution:
-    def rob(self, nums: List[int]) -> int: # Recursion
+    def rob(self, nums: List[int]) -> int:
         n = len(nums)
-
         dp = [-1 for _ in range(n)]
 
         # return self.solveUsingRecursion(n - 1, nums)
         # return self.solveUsingMemoization(n - 1, nums, dp)
-        # return self.solveUsingTabulation(nums)
+        # return self.solveUsingTabulation(nums, dp)
         return self.solveUsingSpaceOptimization(nums)
 
+    # TC: O(2 ^ n) (exponential)
+    # SC: O(n) (recursion stack space)
+
     def solveUsingRecursion(self, ind, nums):
+        # Base Case
         if ind == 0:
             return nums[ind]
 
         if ind < 0:
             return 0
 
-        # pick 
+        # Pick (If we pick this element, then we will skip its next element as to avoid adjacents)
         pick = nums[ind] + self.solveUsingRecursion(ind - 2, nums)
-        # not pick
+
+        # Not Pick
         notPick = 0 + self.solveUsingRecursion(ind - 1, nums)
 
         return max(pick, notPick)
 
-    
+
     # TC: O(n)
-    # SC: O(n) (recursion stack space and dp)
+    # SC: O(n) (dp array and recursion stack space)
     def solveUsingMemoization(self, ind, nums, dp):
+        # Base Case
         if ind == 0:
             return nums[ind]
-        
+
         if ind < 0:
             return 0
 
         if dp[ind] != -1:
             return dp[ind]
 
-        # pick
+        # Pick (If we pick this element, then we will skip its next element as to avoid adjacents)
         pick = nums[ind] + self.solveUsingMemoization(ind - 2, nums, dp)
 
-        # not pick
+        # Not Pick
         notPick = 0 + self.solveUsingMemoization(ind - 1, nums, dp)
 
         dp[ind] = max(pick, notPick)
@@ -47,49 +52,51 @@ class Solution:
 
 
     # TC: O(n)
-    # SC: O(n) (dp)
-    def solveUsingTabulation(self, nums):
-        n = len(nums)
-        dp = [0 for _ in range(n)]
+    # SC: O(n) (dp array)
 
+    def solveUsingTabulation(self, nums, dp):
+        n = len(nums)
+
+        # Base Case
         dp[0] = nums[0]
+
         for ind in range(1, n):
-            pick = nums[ind]
+            # Pick (If we pick this element, then we will skip its next element as to avoid adjacents)
+            pick = nums[ind] 
             if ind > 1:
                 pick += dp[ind - 2]
-            notPick = 0 + dp[ind - 1]
-            dp[ind] = max(pick, notPick)
 
+            # Not Pick
+            notPick = 0 + dp[ind - 1]
+
+            dp[ind] = max(pick, notPick)
+        
         return dp[n - 1]
 
 
+    # TC: O(n)
+    # SC: O(1)
     def solveUsingSpaceOptimization(self, nums):
         n = len(nums)
 
         prev = nums[0]
-        curr = prev
+        prev2 = 0
+        curr = 0
+
         for ind in range(1, n):
+            
+            # Pick (If we pick this element, then we will skip its next element as to avoid adjacents)
             pick = nums[ind]
             if ind > 1:
                 pick += prev2
+
+            # Not Pick
             notPick = 0 + prev
+
             curr = max(pick, notPick)
+
+            # Set the variables for next iteration
             prev2 = prev
             prev = curr
 
-        return curr
-
-
-        
-
-
-        
-        
-
-
-        
-        
-
-
-
-        
+        return prev # Note: Can also return curr here
