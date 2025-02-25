@@ -6,7 +6,8 @@ class Solution:
 
         # return self.solveUsingRecursion(n - 1, nums)
         # return self.solveUsingMemoization(n - 1, nums, dp)
-        return self.solveUsingTabulation(nums)
+        # return self.solveUsingTabulation(nums)
+        return self.solveUsingSpaceOptimization(nums)
 
     def solveUsingRecursion(self, ind, nums):
         if ind == 0:
@@ -60,6 +61,24 @@ class Solution:
             dp[ind] = max(pick, notPick)
 
         return dp[n - 1]
+
+
+    def solveUsingSpaceOptimization(self, nums):
+        n = len(nums)
+
+        prev = nums[0]
+        curr = prev
+        for ind in range(1, n):
+            pick = nums[ind]
+            if ind > 1:
+                pick += prev2
+            notPick = 0 + prev
+            curr = max(pick, notPick)
+            prev2 = prev
+            prev = curr
+
+        return curr
+
 
         
 
