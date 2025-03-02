@@ -28,7 +28,7 @@ class Solution:
         else:
             return ans
 
-    # TC: O(2^n)
+    # TC: O(2^n) (exponential)
     # SC: O(amount) (recursion stack space)
     def solveUsingRecursion(self, ind, amount, coins):
         # Base Case
@@ -102,7 +102,7 @@ class Solution:
     # TC: O(amount * n)
     # SC: O(amount) 
 
-    def solveUsingSpaceOptimization(self, amount, coins, n):
+    def solveUsingSpaceOptimization(self, amount, coins, n): # Two Array (Space Optimized)
         prev = [float('inf') for _ in range(amount + 1)]
 
         # Base Case
@@ -126,7 +126,4 @@ class Solution:
             prev = curr
 
         return prev[amount]
-
-                
-
 
