@@ -7,7 +7,8 @@ class Solution:
 
         dp = [-1 for _ in range(len(s))]
 
-        return self.solveUsingMemoization(0, s, dp)
+        # return self.solveUsingMemoization(0, s, dp)
+        return self.solveUsingTabulation(s)
 
 
     # Brute Force
@@ -48,6 +49,28 @@ class Solution:
         dp[i] = res
         return dp[i]  
 
+
+    # Here, dp[i] represents the number of ways to decode the substring s[i:]
+    # TC: O(n)
+    # SC: O(n) (dp array)
+    def solveUsingTabulation(self, s):
+        n = len(s)
+        dp = [0 for _ in range(len(s) + 1)]
+
+        dp[n] = 1 # Base case: one way to decode an empty string
+
+        for i in range(n - 1, -1, -1):
+            if s[i] == "0":
+                dp[i] = 0 # 0 cannot be decoded
+            else:
+                dp[i] = dp[i + 1] # Decode Single Digit
+
+                if i < len(s) - 1 and (s[i] == "1" or (s[i] == "2" and s[i + 1] < '7')):
+                    dp[i] += dp[i + 2]
+
+        return dp[0]
+            
+ 
          
 
 
