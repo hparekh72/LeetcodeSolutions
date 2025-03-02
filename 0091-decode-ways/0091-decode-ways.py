@@ -8,7 +8,9 @@ class Solution:
         dp = [-1 for _ in range(len(s))]
 
         # return self.solveUsingMemoization(0, s, dp)
-        return self.solveUsingTabulation(s)
+        # return self.solveUsingTabulation(s)
+        return self.solveUsingSpaceOptimization(s)
+
 
 
     # Brute Force
@@ -69,6 +71,32 @@ class Solution:
                     dp[i] += dp[i + 2]
 
         return dp[0]
+
+
+    # TC: O(n)
+    # SC: O(1)
+    def solveUsingSpaceOptimization(self, s):
+        n = len(s)
+        next1 = 1 # dp[i + 1] # Base case: when i = len(s), equivalent to dp[n] (one way to decode an empty string)
+        next2 = 0 # dp[i + 2] # Equivalent to dp[n + 1], which is out of bounds (If i is at the last character (s[n-1]), there is no s[n+1].
+
+        for i in range(n - 1, -1, -1):
+            curr = 0
+            if s[i] == "0":
+                curr = 0 
+            else:
+                curr = next1
+
+                if i < n - 1 and (s[i] == "1" or (s[i] == "2" and s[i + 1] < '7')):
+                    curr += next2
+
+            next2 = next1
+            next1 = curr
+
+        return next1
+         
+
+
             
  
          
