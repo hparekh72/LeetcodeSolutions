@@ -63,6 +63,7 @@ A collection of LeetCode questions I have solved recently!
 | [0128-longest-consecutive-sequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0146-lru-cache) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions I have solved recently!
 | [0130-surrounded-regions](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -498,6 +500,7 @@ A collection of LeetCode questions I have solved recently!
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0198-house-robber) |
@@ -544,6 +547,7 @@ A collection of LeetCode questions I have solved recently!
 | [0125-valid-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0424-longest-repeating-character-replacement) |
@@ -753,6 +757,7 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
 ## Combinatorics
 |  |
 | ------- |
@@ -774,4 +779,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0239-sliding-window-maximum) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
