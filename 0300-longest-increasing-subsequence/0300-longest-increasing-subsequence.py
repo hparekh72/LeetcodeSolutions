@@ -14,7 +14,9 @@ class Solution:
         # dp = [[-1 for _ in range(n + 1)] for _ in range(n)]
         # return self.solveUsingMemoization(0, -1, nums, dp)
 
-        return self.solveUsingTabulation(nums)
+        # return self.solveUsingTabulation(nums)
+
+        return self.solveUsingSpaceOptimization(nums)
 
     def solveUsingRecursion(self, ind, prev_ind, nums):
         if ind == len(nums):
@@ -65,6 +67,32 @@ class Solution:
                 dp[ind][prev_ind + 1] = max(pick, notPick)
 
         return dp[0][-1 + 1]
+
+    # Note as the name suggest prev_ind(previous index), it will be ind(current index) - 1
+    def solveUsingSpaceOptimization(self, nums):
+        n = len(nums)
+
+        front = [0 for _ in range(n + 1)] 
+
+        # Base case is done as the dp matrix is initialized with 0
+
+        for ind in range(n - 1, -1, -1):
+            # Since, prev_ind ranges from (-1 to n-1) in recursion. And do cordinate change(reason is mentioned above).
+            curr = [0 for _ in range(n + 1)]  
+            for prev_ind in range(ind - 1, -2, -1):
+                notPick = 0 + front[prev_ind + 1] 
+
+                pick = 0
+                if prev_ind == -1 or nums[ind] > nums[prev_ind]:
+                    pick = 1 + front[ind + 1] 
+
+                curr[prev_ind + 1] = max(pick, notPick)
+            
+            front = curr
+
+        return front[-1 + 1]
+
+    
         
 
     
