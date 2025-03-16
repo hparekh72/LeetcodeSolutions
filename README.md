@@ -560,6 +560,7 @@ A collection of LeetCode questions I have solved recently!
 | [0721-accounts-merge](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0721-accounts-merge) |
 | [0768-partition-labels](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0768-partition-labels) |
 | [1023-time-based-key-value-store](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1023-time-based-key-value-store) |
+| [1119-robot-bounded-in-circle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1119-robot-bounded-in-circle) |
 | [1170-shortest-common-supersequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -641,6 +642,7 @@ A collection of LeetCode questions I have solved recently!
 | [0070-climbing-stairs](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0368-largest-divisible-subset) |
 | [1014-k-closest-points-to-origin](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1014-k-closest-points-to-origin) |
+| [1119-robot-bounded-in-circle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1119-robot-bounded-in-circle) |
 ## Quickselect
 |  |
 | ------- |
@@ -783,4 +785,8 @@ A collection of LeetCode questions I have solved recently!
 |  |
 | ------- |
 | [0139-word-break](https://github.com/hparekh72/LeetcodeSolutions/tree/master/0139-word-break) |
+## Simulation
+|  |
+| ------- |
+| [1119-robot-bounded-in-circle](https://github.com/hparekh72/LeetcodeSolutions/tree/master/1119-robot-bounded-in-circle) |
 <!---LeetCode Topics End-->
